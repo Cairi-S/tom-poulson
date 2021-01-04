@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&family=Raleway:wght@100;200;300;400;500&display=swap');
 
+/*---------------------------------------
+Header
+---------------------------------------*/
+
 h2{
     margin: 0;
     padding:0;
@@ -26,11 +30,74 @@ h2{
     padding: 0;
 }
 
-#navbar li a{
+#navbar a{
     margin: 0px 16px;
     font-size: 1.5rem;
     font-weight: 200;
     color: #4c1130;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+#navbar a:hover{
+    border-radius: 25px;
+    padding: 8px;
+    color: #f5f5f5;
+    background-color: rgba(76, 17, 48, 0.75);
+}
+
+/*---------------------------------------
+Media Queries
+---------------------------------------*/
+
+@media(max-width: 1280px) {
+    
+    #logo{
+    font-size: 2.75rem;
+    }
+
+    #navbar a{
+    margin: 0px 12px;
+    font-size: 1.25rem;
+}
+
+}
+
+@media(max-width: 992px) {
+    
+    #logo{
+    font-size: 2.5rem;
+    }
+
+    #navbar a{
+    margin: 0px 10px;
+    font-size: 1.1rem;
+    }
+
+}
+
+@media(max-width: 862px) {
+    
+    #logo{
+    font-size: 2.25rem;
+    }
+
+    #navbar a{
+     margin: 0px 10px;
+    font-size: 0.9rem;
+    }
+
+}
+
+@media(max-width: 720px) {
+    
+    #logo{
+    font-size: 2.5rem;
+    }
+
+    #navbar a{
+    margin: 0px 12px;
+    font-size: 1.5rem;
+    }
+
 }
