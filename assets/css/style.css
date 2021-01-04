@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&family=Raleway:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&family=Raleway:wght@100;200;300;400&display=swap');
 
 h2{
     margin: 0;
@@ -12,7 +12,7 @@ Header
 #home-header,
 #home-header h2{
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
     background-color: #f5f5f5;
 }
 
@@ -39,6 +39,10 @@ Header
     text-transform: uppercase;
 }
 
+#navbar li{
+    text-align: center;
+}
+
 #navbar a:hover{
     border-radius: 25px;
     padding: 8px;
@@ -48,6 +52,10 @@ Header
 
 .navbar-home{
     margin-left: 0px;
+}
+
+.active{
+    text-decoration: underline;
 }
 
 /*---------------------------------------
@@ -73,7 +81,7 @@ Footer
 
 #copyright-info,
 #copyright-info span{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 0.75rem;
     color: #4c1130;
 }
@@ -88,20 +96,64 @@ Home page styling
 
 #home-style{
     padding: 0;
-    background-color: rgba(51, 51, 51, 0.5);
-    font-style: 'Raleway', sans-serif;
-    font-weight: 300;
-    color: #f5f5f5;
+    text-align: center;
 }
 
 .home-spacing{
-    margin: 16px 8px 16px 8px;
+    margin: 32px 8px 32px 8px;
 }
 
 .home-spacing-end{
-    margin-bottom: 16px;
+    margin-bottom: 32px;
 }
 
+.hero-home{
+    background-image: url(../images/hero-home-mis.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: auto;
+
+}
+
+#about-text,
+#home-reviews p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: #f5f5f5;
+    border-radius: 10px;
+    background-color: rgba(51, 51, 51, 0.5);
+}
+
+
+#download-btn,
+#contact-btn{
+    text-align: center;
+}
+
+#download-btn i,
+#contact-btn i{
+    color: #f5f5f5;
+}
+
+
+#download-btn a,
+#contact-btn a{
+    padding: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #f5f5f5;
+    border-radius: 25px;
+    background-color: #4c1130;
+    text-decoration: none;
+}
+
+#download-btn:hover,
+#contact-btn:hover{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
 
 /*---------------------------------------
 Media Queries
@@ -110,25 +162,25 @@ Media Queries
 @media(max-width: 1280px) {
     
     #logo{
-    font-size: 2.75rem;
+        font-size: 2.75rem;
     }
 
     #navbar a{
-    margin: 0px 12px;
-    font-size: 1.25rem;
-}
+        margin: 0px 12px;
+        font-size: 1.25rem;
+    }
 
 }
 
 @media(max-width: 992px) {
     
     #logo{
-    font-size: 2.5rem;
+        font-size: 2.5rem;
     }
 
     #navbar a{
-    margin: 0px 10px;
-    font-size: 1.1rem;
+        margin: 0px 10px;
+        font-size: 1.1rem;
     }
 
 }
@@ -136,12 +188,12 @@ Media Queries
 @media(max-width: 862px) {
     
     #logo{
-    font-size: 2.25rem;
+        font-size: 2.25rem;
     }
 
     #navbar a{
-     margin: 0px 10px;
-    font-size: 0.9rem;
+        margin: 0px 10px;
+        font-size: 0.9rem;
     }
 
 }
@@ -149,12 +201,28 @@ Media Queries
 @media(max-width: 720px) {
     
     #logo{
-    font-size: 2.5rem;
+        font-size: 2.5rem;
     }
 
     #navbar a{
-    margin: 0px 12px;
-    font-size: 1.5rem;
+        margin: 0px 12px;
+        font-size: 1.3rem;
+    }
+
+    .hero-home{
+        background-size: auto 100%;
+    }
+
+    .mobile-review{
+        margin: 32px 0px 0px 0px;
+    }
+
+    .mobile-review-end{
+        margin-bottom: 32px;
+    }
+
+    .desktop-review{
+        display: none;
     }
 
 }
