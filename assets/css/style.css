@@ -6,6 +6,42 @@ h2{
 }
 
 /*---------------------------------------
+Buttons
+---------------------------------------*/
+
+#contact-btn{
+    background-color: #f5f5f5;
+}
+
+#download-btn,
+#contact-btn{
+    text-align: center;
+}
+
+#download-btn i,
+#contact-btn i{
+    color: #f5f5f5;
+}
+
+
+#download-btn a,
+#contact-btn a{
+    padding: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #f5f5f5;
+    border-radius: 25px;
+    background-color: #4c1130;
+    text-decoration: none;
+}
+
+#download-btn:hover,
+#contact-btn:hover{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+/*---------------------------------------
 Header
 ---------------------------------------*/
 
@@ -126,33 +162,31 @@ Home page styling
     background-color: rgba(51, 51, 51, 0.5);
 }
 
+/*---------------------------------------
+Ensembles - Carousel
+---------------------------------------*/
 
-#download-btn,
-#contact-btn{
-    text-align: center;
+.slider span{
+    padding: 4px;
+    color:#f5f5f5;
+    background-color: #333;
+    border-radius: 50px;
 }
 
-#download-btn i,
-#contact-btn i{
-    color: #f5f5f5;
+.scb-carousel{
+    background-color: rgba(51, 51, 51, 0.5);
+    border-radius: 10px;
 }
 
-
-#download-btn a,
-#contact-btn a{
-    padding: 8px;
+.scb-carousel a,
+.scb-carousel p{
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     color: #f5f5f5;
-    border-radius: 25px;
-    background-color: #4c1130;
-    text-decoration: none;
 }
 
-#download-btn:hover,
-#contact-btn:hover{
-    text-decoration: underline;
-    text-transform: uppercase;
+.ensemb-contact-btn{
+    margin: 16px 0px 16px 0px;
 }
 
 /*---------------------------------------
