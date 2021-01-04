@@ -171,13 +171,29 @@ The page concludes with a submit button
 ### WITH THANKS ###
 
 The creation of this website would not have been possible without:
+- Balsamiq, for creation of Wireframes.
+- Bootstrap v.5(beta), thank you for your easy to use grid system, XXX YYY.
+- Google Fonts (link)
+- Font Awesome (link)
+- Color Tool (link), thank you for your helpful website which helps showcase color parings.
+- Tinypng (link)
+
+- W3Schools for your validators, 
+
+- Code Institute tutors and staff for their easy to access course material.
+- The wonderful Code Institute Slack community
+
 
 
 Additional thanks go to:
-- **Ed Poulson** for his brilliant photograph manipulation.
+- **Ed Poulson** for his help with editing images.
 - XXX for photograph.
 - YYY for photograph.
 - AAA for video A.
 - BBB for video B.
 - CCC for video C.
-- My mentor, **Akshat Garg**, for his help and guidance throughout. 
+- My mentor, **Akshat Garg**, for his help and guidance throughout.
+
+### BUGS ###
+
+Navbar moving when hovering active
