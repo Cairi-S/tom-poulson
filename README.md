@@ -177,6 +177,7 @@ The creation of this website would not have been possible without:
 - Font Awesome (link)
 - Color Tool (link), thank you for your helpful website which helps showcase color parings.
 - Tinypng (link)
+- OnlineConvert.com (link), thank you for your assistance in converting jpeg to jpg files.
 
 - W3Schools for your validators, 
 
@@ -186,14 +187,17 @@ The creation of this website would not have been possible without:
 
 
 Additional thanks go to:
-- **Ed Poulson** for his help with editing images.
-- XXX for photograph.
-- YYY for photograph.
-- AAA for video A.
-- BBB for video B.
+
+- **Neil Hanna Photography** for use of his press photograph of 'The Last Post' used on the Home page.
+- **Ed Poulson** for his help with editing images on photoshop.
+- **Miki Anagrius** for use of his photograph of Stockholm Chamber Brass used on the Ensembles and Projects page.
+- **AAA** for use of their poster designed for promotion of project The Last Post used on the Ensembles and Projects page.
+- **BBB** for use of their photograph of WorldBrass used on the Ensembles and Projects page.
 - CCC for video C.
 - My mentor, **Akshat Garg**, for his help and guidance throughout.
 
 ### BUGS ###
 
-Navbar moving when hovering active
+- Navbar moving when hovering active
+
+- White band at the bottom of mobile devices on Ensemble page.  Solution: changing the chosen images from landscape images to portrait images.
