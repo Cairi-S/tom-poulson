@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&family=Raleway:wght@100;200;300;400&display=swap');
 
 h2{
@@ -8,6 +15,19 @@ h2{
 /*---------------------------------------
 Buttons
 ---------------------------------------*/
+
+/*--Burger menu in navbar--*/
+
+.burger-menu{
+    margin-bottom: 8px;
+}
+
+.navbar-light .navbar-toggler {
+    color: #4c1130;
+    border-color: #4c1130;
+}
+
+/*--Homepage buttons--*/
 
 #download-btn,
 #contact-btn{
@@ -36,9 +56,7 @@ Buttons
     text-transform: uppercase;
 }
 
-#ensemb-contact-btn-background{
-    background-color: #f5f5f5;
-}
+/*--Ensemble page buttons--*/
 
 .ensemb-contact-btn{
     margin: 16px 0px 16px 0px;
@@ -66,15 +84,16 @@ Buttons
 Header
 ---------------------------------------*/
 
-#home-header,
-#home-header h2{
+#header{
     padding: 0;
-    font-family: 'Raleway', sans-serif;
     background-color: #f5f5f5;
 }
 
+/*--Logo--*/
+
 #logo{
     margin-left: 8px;
+    font-family: 'Raleway', sans-serif;
     font-size: 3rem;
     font-weight: 200;
     color: #333;
@@ -82,13 +101,16 @@ Header
     text-decoration: none;
 }
 
-#navbar ul{
+/*--Navbar--*/
+
+#menu{
     margin: 0;
     padding: 0;
 }
 
-#navbar a{
+#menu a{
     margin: 0px 32px 0px 0px;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.5rem;
     font-weight: 200;
     color: #4c1130;
@@ -96,23 +118,11 @@ Header
     text-transform: uppercase;
 }
 
-#navbar li{
-    text-align: center;
-}
-
-#navbar a:hover{
+#menu a:hover{
     border-radius: 25px;
     padding: 8px;
     color: #f5f5f5;
     background-color: rgba(76, 17, 48, 0.75);
-}
-
-.navbar-home{
-    margin-left: 0px;
-}
-
-.menu-active{
-    text-decoration: underline;
 }
 
 /*---------------------------------------
@@ -125,6 +135,8 @@ Footer
     background-color: #f5f5f5;
 }
 
+/*--Social media icons--*/
+
 #social-icons ul{
     margin: 4px 0px 4px 0px;
     padding: 0;
@@ -135,6 +147,8 @@ Footer
     font-size: 1.25rem;
     color: #4c1130;
 }
+
+/*--Copyright information--*/
 
 #copyright-info,
 #copyright-info span{
@@ -164,6 +178,8 @@ Home page
     margin-bottom: 32px;
 }
 
+/*--Hero image--*/
+
 .hero-home{
     background-image: url(../images/hero-home-mis.jpg);
     background-position: center;
@@ -173,6 +189,8 @@ Home page
     height: 100vh;
 
 }
+
+/*--Home page text--*/
 
 #about-text,
 #home-reviews p{
@@ -187,11 +205,22 @@ Home page
 Ensembles - Carousel
 ---------------------------------------*/
 
+/*--Carousel controls--*/
+
 .slider span{
+    margin-top: 50%;
     padding: 4px;
     color:#f5f5f5;
-    background-color: #333;
+    background-color: #4c1130;
+    border: 1px solid #f5f5f5;
     border-radius: 50px;
+}
+
+.carousel-control-next, 
+.carousel-control-prev {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
 }
 
 /*with thanks to koala-dev for .carousel-caption code on StackOverflow to align captions to top of page*/
@@ -200,9 +229,11 @@ Ensembles - Carousel
     bottom: auto;
 }
 
+/*--Carousel text--*/
+
 .ensemb-carousel{
     padding: 16px 8px;
-    background-color: rgba(51, 51, 51, 0.5);
+    background-color: rgba(51, 51, 51, .75);
 }
 
 .ensemb-carousel h4{
@@ -218,35 +249,21 @@ Ensembles - Carousel
     text-align: center;
 }
 
-.scb-text{
-    margin-bottom: 1369px;
-}
-
-.tlp-text{
-    margin-bottom: 1426px;
-}
-
-.wb-text{
-    margin-bottom: 1440px;
-}
-
 .desktop-scb-description{
     margin: 0;
 }
-
-
 
 /*---------------------------------------
 Media Queries
 ---------------------------------------*/
 
-@media(max-width: 1280px) {
+/*@media(max-width: 1280px) {
     
     #logo{
         font-size: 2.75rem;
     }
 
-    #navbar a{
+    .menu a{
         margin: 0px 12px;
         font-size: 1.25rem;
     }
@@ -259,7 +276,7 @@ Media Queries
         font-size: 2.5rem;
     }
 
-    #navbar a{
+   .menu a{
         margin: 0px 10px;
         font-size: 1.1rem;
     }
@@ -272,27 +289,40 @@ Media Queries
         font-size: 2.5rem;
     }
 
-    #navbar a{
+    .menu a{
         margin: 0px 12px;
         font-size: 1.3rem;
     }
 
 }
+*/
+
+@media (max-width: 991.98px) {
+
+
+
+}
 
 @media(max-width: 720px) {
+
+    /*--Header--*/
     
     #logo{
         font-size: 2.5rem;
     }
 
-    #navbar a{
+    .menu a{
         margin: 0px 12px;
         font-size: 1.3rem;
     }
 
+    /*--Header--*/
+
     .hero-home{
         background-size: auto 100%;
     }
+
+    /*--Home page reviews--*/
 
     .mobile-review{
         margin: 32px 0px 0px 0px;
@@ -306,17 +336,29 @@ Media Queries
         display: none;
     }
 
-    /*--ensembles page--*/
+    /*--Ensembles page--*/
 
-    /*with thanks to Sebsemillia for .carousel-caption code on StackOverflow to center carousel captions vertically*/
+    .scb-image,
+    .tlp-image,
+    .wb-image{
+        height: 75vh;
+    }
+
+    /*-----------
+    With thanks to Sebsemillia for .carousel-caption code on StackOverflow to center carousel captions vertically
+    -----------*/
+
     .carousel-caption{
         top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
         transform: translateY(-50%);
         bottom: initial;
         -webkit-transform-style: preserve-3d;
-        -moz-transform-style: preserve-3d;
         transform-style: preserve-3d;
     }
+
+    /*----*/
 
     .ensemb-carousel{
         padding: 0;
