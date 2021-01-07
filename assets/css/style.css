@@ -62,9 +62,6 @@ Buttons
 }
 
 
-
-
-
 /*---------------------------------------
 Header
 ---------------------------------------*/
@@ -151,7 +148,7 @@ Footer
 }
 
 /*---------------------------------------
-Home page styling
+Home page
 ---------------------------------------*/
 
 #home-style{
@@ -197,6 +194,12 @@ Ensembles - Carousel
     border-radius: 50px;
 }
 
+/*with thanks to koala-dev for .carousel-caption code on StackOverflow to align captions to top of page*/
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+
 .ensemb-carousel{
     padding: 16px 8px;
     background-color: rgba(51, 51, 51, 0.5);
@@ -220,7 +223,7 @@ Ensembles - Carousel
 }
 
 .tlp-text{
-    margin-bottom: 1808px;
+    margin-bottom: 1426px;
 }
 
 .wb-text{
@@ -303,10 +306,19 @@ Media Queries
         display: none;
     }
 
-    /*--ensembles--*/
+    /*--ensembles page--*/
+
+    /*with thanks to Sebsemillia for .carousel-caption code on StackOverflow to center carousel captions vertically*/
+    .carousel-caption{
+        top: 50%;
+        transform: translateY(-50%);
+        bottom: initial;
+        -webkit-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+    }
 
     .ensemb-carousel{
-        margin-bottom: 150px;
         padding: 0;
         background-color: rgba(51, 51, 51, 0.75);
     }

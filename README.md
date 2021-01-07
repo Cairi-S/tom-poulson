@@ -183,6 +183,7 @@ The creation of this website would not have been possible without:
 
 - Code Institute tutors and staff for their easy to access course material.
 - The wonderful Code Institute Slack community
+- The StackOverlow community
 
 
 
@@ -193,7 +194,8 @@ Additional thanks go to:
 - **Miki Anagrius** for use of his photograph of Stockholm Chamber Brass used on the Ensembles and Projects page.
 - **AAA** for use of their poster designed for promotion of project The Last Post used on the Ensembles and Projects page.
 - **BBB** for use of their photograph of WorldBrass used on the Ensembles and Projects page.
-- CCC for video C.
+- **koala-dev** for .carousel-caption code on StackOverflow to align captions to start of page *credited on style.css*
+- **Sebsemillia** for .carousel-caption code on StackOverflow to align captions to center of page *credited on style.css*
 - My mentor, **Akshat Garg**, for his help and guidance throughout.
 
 ### BUGS ###
