@@ -96,6 +96,10 @@ Buttons
     text-transform: uppercase;
 }
 
+.contact-btn-home-spacing{
+    margin: 29px 0px 20px 0px;
+}
+
 /*--Ensemble page buttons--*/
 
 .ensemb-contact-btn{
@@ -242,7 +246,7 @@ Home page
 ---------------------------------------*/
 
 #home-style{
-    padding: 0;
+    padding-top: 162px;
     text-align: center;
 }
 
@@ -253,7 +257,7 @@ Home page
 /*--Home page text--*/
 
 #about-text, #home-reviews p {
-    min-height: 200px;
+    min-height: 250px;
     padding: 21px;
     display: flex;
     flex-direction: column;
