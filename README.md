@@ -172,19 +172,20 @@ The page concludes with a submit button
 
 The creation of this website would not have been possible without:
 - Balsamiq, for creation of Wireframes.
-- Bootstrap v.5(beta), thank you for your easy to use grid system, XXX YYY.
-- Google Fonts (link)
-- Font Awesome (link)
-- Color Tool (link), thank you for your helpful website which helps showcase color parings.
+- Bootstrap v.4.5 (link) -  for their grid system, navbar, carousel.
+- Google Fonts (link) -  for fonts Poppins and Raleway
+- Font Awesome (link) - for Download icon.
+
+- Color Tool (link)
 - Tinypng (link)
 - OnlineConvert.com (link), thank you for your assistance in converting jpeg to jpg files.
+- AutoPrefixer (link), thank you for your assistance
 
-- W3Schools for your validators, 
+- The W3C Markup Validation service - HTML and CSS validators.
 
 - Code Institute tutors and staff for their easy to access course material.
 - The wonderful Code Institute Slack community
 - The StackOverlow community
-
 
 
 Additional thanks go to:
@@ -192,14 +193,15 @@ Additional thanks go to:
 - **Neil Hanna Photography** for use of his press photograph of 'The Last Post' used on the Home page.
 - **Ed Poulson** for his help with editing images on photoshop.
 - **Miki Anagrius** for use of his photograph of Stockholm Chamber Brass used on the Ensembles and Projects page.
-- **AAA** for use of their poster designed for promotion of project The Last Post used on the Ensembles and Projects page.
-- **BBB** for use of their photograph of WorldBrass used on the Ensembles and Projects page.
+- **Anna Parker @ Fogbank Projects**  for use of their poster designed for promotion of project The Last Post used on the Ensembles and Projects page.
+- **Peter Himsels** for use of their photograph of WorldBrass used on the Ensembles and Projects page.
+- **Kenneth Dundas** for use of their photograph of the musician smiling during rehearsal used on the Contact page.
 - **koala-dev** for .carousel-caption code on StackOverflow to align captions to start of page *credited on style.css*
 - **Sebsemillia** for .carousel-caption code on StackOverflow to align captions to center of page *credited on style.css*
 - My mentor, **Akshat Garg**, for his help and guidance throughout.
 
 ### BUGS ###
 
-- Navbar moving when hovering active
+- White band at the bottom of mobile devices on Ensemble page.  
 
-- White band at the bottom of mobile devices on Ensemble page.  Solution: changing the chosen images from landscape images to portrait images.
+Solution: changing the chosen images from landscape images to portrait images.  Changing position of contact button on this page between desktop and mobile devices.  Increasing width to 110% on mobile devices.  NB still not solved for 2x mobile devices Pixel 2XL and iPhoneX .
