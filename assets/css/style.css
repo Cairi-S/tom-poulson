@@ -7,11 +7,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&family=Raleway:wght@100;200;300;400&display=swap');
 
-h2{
-    margin: 0;
-    padding:0;
-}
-
 /*---------------------------------------
 Images
 ---------------------------------------*/
@@ -205,6 +200,10 @@ Footer
 
 /*--Social media icons--*/
 
+#social-icons{
+    padding-top: 40px;
+}
+
 #social-icons ul{
     margin: 4px 0px 4px 0px;
     padding: 0;
@@ -212,7 +211,7 @@ Footer
 
 #social-icons i{
     padding: 0;
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     color: #4c1130;
 }
 
@@ -220,13 +219,14 @@ Footer
 
 #copyright-info,
 #copyright-info span{
+    padding-bottom: 40px;
     font-family: 'Raleway', sans-serif;
-    font-size: 0.75rem;
+    font-size: 1.25rem;
     color: #4c1130;
 }
 
 #copyright-info i{
-    font-size: 0.75rem; 
+    font-size: 1.25rem; 
 }
 
 /*---------------------------------------
