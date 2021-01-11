@@ -256,19 +256,24 @@ Home page
 
 /*--Home page text--*/
 
-#about-text, #home-reviews p {
+#about-text, 
+#home-reviews p {
     min-height: 250px;
     padding: 21px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 200;
     color: #333;
     border: 1px solid #333;
     border-radius: 10px;
     background-color: rgba(232, 232, 232, 0.75);
+}
+
+#about-text h4, 
+#home-reviews p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
 }
     
 
@@ -408,7 +413,12 @@ Media Queries
     }
 
     #about-text{
+        padding: 21px 0px;
         font-size:20px;
+    }
+
+    #download-btn{
+        padding: 6px 0px;
     }
 
     /*--Home page reviews--*/
