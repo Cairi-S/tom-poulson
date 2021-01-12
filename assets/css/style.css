@@ -391,6 +391,15 @@ Media Queries
 
 }
 
+@media (min-width: 800px) and (max-width: 1024px) {
+    
+    #home-style{
+        padding-top: 260px;
+    }
+
+}
+
+
 @media (min-width: 720px) and (max-width: 800px) {
 
     #home-style{
@@ -423,6 +432,11 @@ Media Queries
 
     #social-icons{
         padding-top: 20px;
+    }
+
+    #copyright-info,
+    #copyright-info span{
+        font-size: 1.1rem;
     }
 
     /*--Homepage body--*/
