@@ -47,16 +47,23 @@
             <div class="col-md-6 contact-form text-center">
                 
                 <h4 id="contact-heading">Looking to collaborate? Get it Touch!</h4>
-                
+               
                 <form id="contact-details">
-                    <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required>
+                    <label for="fullname"></label>
+                    <input type="text" name="name" id="full-name" class="form-control" placeholder="Name" required>
+
+                    <label for="emailaddress"></label>
                     <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email address" required>
+
+                    <label for="contactmessage"></label>
                     <textarea name="contactmessage" id="contactmessage" class="form-control" cols="45" rows="6" placeholder="Your message" required></textarea>
+
                     <div class="form-row text-center">
                         <div class="col-md-6 offset-md-3">
                             <button type="submit" class="btn btn-secondary contact-submit-btn">Send Collaboration Query</button>
                         </div>
                     </div>
+                    
                 </form>
 
             </div>
