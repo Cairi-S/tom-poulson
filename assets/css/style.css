@@ -281,35 +281,17 @@ Home page
 Ensembles - Carousel
 ---------------------------------------*/
 
-/*--Carousel controls--*/
-
-.slider span{
-    margin-top: 50%;
-    padding: 4px;
-    color:#f5f5f5;
-    background-color: #4c1130;
-    border: 1px solid #f5f5f5;
-    border-radius: 50px;
-}
-
-.carousel-control-next, 
-.carousel-control-prev {
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    opacity: 0.75;
-}
-
-/*with thanks to koala-dev for .carousel-caption code on StackOverflow to align captions to top of page*/
-.carousel-caption {
-    top: 0;
-    bottom: auto;
-}
 
 /*--Carousel text--*/
 
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
+
 .ensemb-carousel{
-    padding: 16px 8px;
+    padding: 40px 8px;
     border: 1px solid #333;
     border-radius: 10px;
     background-color: rgba(232, 232, 232, 0.75);
