@@ -26,9 +26,8 @@ Images
 .scb-image,
 .tlp-image,
 .wb-image{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
+    height: 210vh;
+    object-fit: cover;
 }
 
 /*--Contact page image--*/
