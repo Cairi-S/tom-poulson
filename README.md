@@ -1,12 +1,12 @@
 # Tom Poulson #
 
-### Trumpeter, Teacher and Arranger ###
+## Trumpeter, Teacher and Arranger ##
 
-[Link to website](https://www.example.com)
+[Tom Poulson - website](http://cairi-s.github.io/tom-poulson)
 
 This is a full website for classical/contemporary trumpeter, teacher and arranger, Tom Poulson.  Tom is from England but currently lives in Stockholm, Sweden, and is active around the world.
 
-The website will feature promotional videos of both solo and ensemble performances, testimonials from students and reviews of concerts, links to external webpages of groups and projects, teaching website and shop for purchasing arrangements as well as a Carlander showcasing past and upcoming events and a contact page to lead potential collaborators to make contact with Tom.
+The website will feature promotional images of both solo and ensemble performances, testimonials from students and reviews of concerts, links to external webpages of groups and projects, teaching website and shop for purchasing arrangements as well as a Calander showcasing past and upcoming events and a contact page to lead potential collaborators to make contact with Tom.
 
 It is worth noting that, as a performer and teacher, this website is **aimed at both B2B and B2C clients**:
 - B2B are professional orchestras, music clubs and music schools who may be looking for a performer or teacher.
@@ -15,10 +15,10 @@ It is worth noting that, as a performer and teacher, this website is **aimed at 
 With this in mind the website is designed to be **easily navigated,responsive and accessible** on a variety of different devices.
 
 The business goals of the website are:
-- To increase brand awareness
-- To provide exceptional UX to encourage users to book the artist for performances/teaching
-- Provide examples of the musicians range of work to showcase versatility
-- Encourage users to make contact with the artist with all queries
+- To increase brand awareness.
+- To provide exceptional UX to encourage users to book the artist for performances/teaching.
+- Provide examples of the musicians range of work to showcase versatility.
+- Encourage users to make contact with the artist with all queries.
 
 Customers to this website may be looking to:
 - Book a solo musician or an ensemble for concerts
@@ -79,9 +79,6 @@ All Hero images used will mainly be action shots of the musician performing/teac
 - The images and videos used on the *Ensembles/Projects* page will be of the musician performing with that specific Group.
 - The image on the *Contact page* will feature the musician smiling and looking to camera, to convey that he is approachable.
 
-~~- The images used on the *Calendar page* will be action shots of the musician in concert.~~
-~~- The *Teaching page* will feature an action shot of the musician with a Student.  The contact page will feature a shot of the musician smiling/engaging with others.~~
-
 
 ### WIREFRAMES ###
 Link to Wireframes for
@@ -89,7 +86,6 @@ Link to Wireframes for
 - ENSEMBLES/PROJECTS
 - CONTACT
 
-~~- CALENDAR - TEACHER~~
 
 ### FEATURES ###
 
@@ -137,10 +133,6 @@ Everyone wanting to make an enquiry must provide their:
 
 The page concludes with a submit button
 
-~~**Teacher**The Hero image will be an action photograph of the musician teaching a student.  Text about the methodology used and teaching experience will scroll over the image.  Three testimonials from students will be featured before listing the different teaching options and prices.  Teaching options and pricing will be laid in a table showing:  One to One lessons, in person noting that there may be Additional costs depending on location, and online linking to Play with a Pro extenal webpage - prices for this will be listed.  Group lessons - will be listed from a starting Price.  Coaching and Masterclasses - Prices available on request. The final teaching option listed will be a link to the Stockholm Chamber Brass Academy page - no prices will be featured here as it is a closed music course which musicians would have to apply to.  There will also be a Call to Action button directing users to the Contact page should the user have any queries about teaching or want to make a booking.~~
-
-
-~~**Calendar**This page will be organised into two rows and two columns.  The column to the left will  feature text on upcoming events on the top row and past events on the bottom.  The second row will feature images from past performances.  The Upcoming Events tab will be scrollable from the closest dated performance to the one furthest in the future.  It will feature the date and time, location, brief description of the concert (e.g. solo, with which orchestra/conductor and music) and link to ticketing website.  The Past Events Tab will be scrollable from the most recent performance to furthest in the past.  It will feature the date and time, location, brief description of the concert (e.g. solo, with which orchestra/conductor and music) and, where possible, an excerpt from a review.  This page should be updated regularly to keep it relevant.  There will also be a Call to Action button asking the user if they have ideas for a performance and directing users to the Contact page.~~
 
 ### EXISTING FEATURES ### 
 **Header Logo** - Appears on every page making the brand easily identifiable. The logo will react as users have come to expect - clicking on it will return them to the Home screen.
@@ -155,9 +147,6 @@ The page concludes with a submit button
 
 **Images** - All images chosen are dynamic images with the aim of providing an emotional response.
 
-**Video** - All video chosen are high quality to showcase the musicians, and the Groups they perform with’s, artistry.  This creates a connection and a positive emotional response.
-
-~~**Pricing Tables** - Will be used to show clear guidelines to the different pricings of lessons and arrangements.**Calander** - Will be seperated into two sections to clearly lay out what has already happened and what is still to happen.  Upcoming concerts will be linked to a ticketing website to encourage ticket sales.  Past events will feature positive reviews to encourage users to book for future events.~~
 
 ### FUTURE FEATURES ###
 
@@ -168,27 +157,23 @@ The page concludes with a submit button
 - Ability to take bookings for lessons/performances on website.
 - Abitilty to accept payments for bookings/music purchases on website.
 
-### WITH THANKS ###
+### TECHNOLOGY ###
 
 The creation of this website would not have been possible without:
-- Balsamiq, for creation of Wireframes.
-- Bootstrap v.4.5 (link) -  for their grid system, navbar, carousel.
-- Google Fonts (link) -  for fonts Poppins and Raleway
-- Font Awesome (link) - for Download icon.
+- [Balsamiq](https://balsamiq.com/) - used for creation of Wireframes.
+- [Bootstrap v.4](https://getbootstrap.com/docs/4.0/getting-started/introduction/) -  used for their navbar, grid system and carousel.
+- [Google Fonts](https://fonts.google.com/) -  used for fonts styles, namely Poppins and Raleway.
+- [Font Awesome](https://fontawesome.com/) - used for icons, namely the Download icon on the home page.
 
-- Color Tool (link)
-- Tinypng (link)
-- OnlineConvert.com (link), thank you for your assistance in converting jpeg to jpg files.
-- AutoPrefixer (link), thank you for your assistance
+- [Color Tool](https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=560027&secondary.color=E0E0E0) - used to select complimentary colors for the website design.
+- [Tinypng](https://tinypng.com/) - used to reduce the file size of all images.
+- [Online-Convert.com](https://image.online-convert.com/convert-to-jpg), thank you for your assistance in converting jpeg to jpg files.
+- [AutoPrefixer.github.io](http://autoprefixer.github.io/), thank you for your assistance
 
 - The W3C Markup Validation service - HTML and CSS validators.
 
-- Code Institute tutors and staff for their easy to access course material.
-- The wonderful Code Institute Slack community
-- The StackOverlow community
 
-
-Additional thanks go to:
+### CREDITS ###
 
 - **Neil Hanna Photography** for use of his press photograph of 'The Last Post' used on the Home page.
 - **Ed Poulson** for his help with editing images on photoshop.
@@ -199,8 +184,24 @@ Additional thanks go to:
 - **koala-dev** for .carousel-caption code on StackOverflow to align captions to start of page *credited on style.css*
 - **Sebsemillia** for .carousel-caption code on StackOverflow to align captions to center of page *credited on style.css*
 - My mentor, **Akshat Garg**, for his help and guidance throughout.
+- **Code Institute tutors and staff** for their easy to access course material.
+- The wonderful **Code Institute Slack community**.
+- The **StackOverlow community**. 
 
-### BUGS ###
+### TESTING ###
+
+- [W3C Markup Validation service](https://validator.w3.org/) - used to check validity of website HTML code.  No errors or warnings reported.
+- [W3C CSS Validation service](https://jigsaw.w3.org/css-validator/validator) - used to check validity of website CSS code.  No errors or warnings reported.
+
+**Client Stories Testing**
+
+**Testing client stories from UX section**
+
+**Manual (logical) testing of all elements and functionality on every page.**
+
+**Further testing**
+
+**Bugs**
 
 - White band at the bottom of mobile devices on Ensemble page.  
 
