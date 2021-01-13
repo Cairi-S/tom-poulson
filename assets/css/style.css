@@ -5,7 +5,7 @@
 * Browsers: last 4 version
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&family=Raleway:wght@100;200;300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&family=Raleway:wght@100;200;300;400&display=swap");
 
 /*---------------------------------------
 Images
@@ -13,28 +13,28 @@ Images
 
 /*--Hero image--*/
 
-.hero-home{
+.hero-home {
     background-image: url(../images/home-hero.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     width: 100%;
     min-height: 100vh;
-
 }
 
 .scb-image,
 .tlp-image,
-.wb-image{
+.wb-image {
     height: 213vh;
+    -o-object-fit: cover;
     object-fit: cover;
 }
 
 /*--Contact page image--*/
 
-#contact-img{
+#contact-img {
     background: url("../images/contact-tom-smile.jpg");
-    margin:0;
+    margin: 0;
     background-repeat: no-repeat;
     background-size: 100%;
     height: 200vh;
@@ -46,7 +46,7 @@ Buttons
 
 /*--Burger menu in navbar--*/
 
-.burger-menu{
+.burger-menu {
     margin: 8px;
 }
 
@@ -57,27 +57,31 @@ Buttons
 
 /*--Homepage buttons--*/
 
-#download-btn{
+#download-btn {
     margin: 25px;
     padding: 6px;
     text-align: center;
 }
 
-#home-contact-btn{
+#home-contact-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     text-align: center;
 }
 
 #download-btn i,
-#home-contact-btn i{
+#home-contact-btn i {
     color: #f5f5f5;
 }
 
 #download-btn a,
-#home-contact-btn a{
+#home-contact-btn a {
     padding: 11px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 18px;
     font-weight: 300;
     color: #f5f5f5;
@@ -87,41 +91,41 @@ Buttons
 }
 
 #download-btn:hover,
-#home-contact-btn:hover{
+#home-contact-btn:hover {
     text-decoration: underline;
     text-transform: uppercase;
 }
 
-.contact-btn-home-spacing{
+.contact-btn-home-spacing {
     margin: 29px 0px 20px 0px;
 }
 
 /*--Ensemble page buttons--*/
 
-.ensemb-contact-btn{
+.ensemb-contact-btn {
     margin: 16px 0px 16px 0px;
 }
 
-.mobile-ensemb-contact-btn{
+.mobile-ensemb-contact-btn {
     display: none;
 }
 
-.ensemb-contact-btn a{
+.ensemb-contact-btn a {
     padding: 8px;
-    color: #f5f5f5!important;
+    color: #f5f5f5 !important;
     background-color: #4c1130;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 300;
     border-radius: 25px;
     text-decoration: none;
 }
 
-.ensemb-contact-btn:hover{
+.ensemb-contact-btn:hover {
     text-decoration: underline;
     text-transform: uppercase;
 }
 
-.carousel-control-next-icon, 
+.carousel-control-next-icon,
 .carousel-control-prev-icon {
     width: 3rem;
     height: 3rem;
@@ -133,21 +137,21 @@ Buttons
 
 button[type="submit"] {
     margin-top: 12px;
-    color:#f5f5f5;
-    background-color:#4C1130;
+    color: #f5f5f5;
+    background-color: #4c1130;
 }
 
-.contact-submit-btn{
+.contact-submit-btn {
     padding: 8px;
     color: #f5f5f5;
     background-color: #4c1130;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 300;
     border-radius: 25px;
     text-decoration: none;
 }
 
-.contact-submit-btn:hover{
+.contact-submit-btn:hover {
     background-color: #4c1130;
     text-decoration: underline;
     text-transform: uppercase;
@@ -157,16 +161,16 @@ button[type="submit"] {
 Header
 ---------------------------------------*/
 
-#header{
+#header {
     padding: 0;
     background-color: #f5f5f5;
 }
 
 /*--Logo--*/
 
-#logo{
+#logo {
     margin-left: 8px;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 3rem;
     font-weight: 200;
     color: #333;
@@ -176,14 +180,14 @@ Header
 
 /*--Navbar--*/
 
-#menu{
+#menu {
     margin: 0px 147px 0px 0px;
     padding: 0;
 }
 
-#menu a{
+#menu a {
     padding: 4px 16px;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 1.25rem;
     font-weight: 200;
     color: #4c1130;
@@ -191,41 +195,39 @@ Header
     text-transform: uppercase;
 }
 
-#menu a:hover{
+#menu a:hover {
     border-radius: 25px;
     padding: 8px;
     color: #f5f5f5;
     background-color: rgba(76, 17, 48, 0.75);
 }
 
-#menu > .active{
+#menu > .active {
     text-decoration: underline;
 }
-
-
 
 /*---------------------------------------
 Footer
 ---------------------------------------*/
 
-#home-footer{
+#home-footer {
     margin: 0;
-    padding:0;
+    padding: 0;
     background-color: #f5f5f5;
 }
 
 /*--Social media icons--*/
 
-#social-icons{
+#social-icons {
     padding-top: 40px;
 }
 
-#social-icons ul{
+#social-icons ul {
     margin: 4px 0px 4px 0px;
     padding: 0;
 }
 
-#social-icons i{
+#social-icons i {
     padding: 0;
     font-size: 1.75rem;
     color: #4c1130;
@@ -234,39 +236,48 @@ Footer
 /*--Copyright information--*/
 
 #copyright-info,
-#copyright-info span{
+#copyright-info span {
     padding-bottom: 40px;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 1.25rem;
     color: #4c1130;
 }
 
-#copyright-info i{
-    font-size: 1.25rem; 
+#copyright-info i {
+    font-size: 1.25rem;
 }
 
 /*---------------------------------------
 Home page
 ---------------------------------------*/
 
-#home-style{
+#home-style {
     padding-top: 162px;
     text-align: center;
 }
 
-.home-spacing{
+.home-spacing {
     margin: 32px 8px 32px 8px;
 }
 
 /*--Home page text--*/
 
-#about-text, 
+#about-text,
 #home-reviews p {
     min-height: 250px;
     padding: 21px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     color: #333;
     border: 1px solid #333;
@@ -274,47 +285,47 @@ Home page
     background-color: rgba(232, 232, 232, 0.75);
 }
 
-#about-text h4, 
-#home-reviews p{
-    font-family: 'Poppins', sans-serif;
+#about-text h4,
+#home-reviews p {
+    font-family: "Poppins", sans-serif;
     font-weight: 200;
 }
-    
 
 /*---------------------------------------
 Ensembles - Carousel
 ---------------------------------------*/
 
-
 /*--Carousel text--*/
 
-.carousel-caption{
+.carousel-caption {
     top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     bottom: initial;
 }
 
-.ensemb-carousel{
+.ensemb-carousel {
     padding: 40px 8px;
     border: 1px solid #333;
     border-radius: 10px;
     background-color: rgba(232, 232, 232, 0.75);
 }
 
-.ensemb-carousel h4{
+.ensemb-carousel h4 {
     margin-bottom: 16px;
     text-align: center;
 }
 
 .ensemb-carousel a,
-.ensemb-carousel p{
-    font-family: 'Poppins', sans-serif;
+.ensemb-carousel p {
+    font-family: "Poppins", sans-serif;
     font-weight: 300;
     color: #333;
     text-align: center;
 }
 
-.desktop-scb-description{
+.desktop-scb-description {
     margin: 0;
 }
 
@@ -324,7 +335,7 @@ Contact page
 
 /*--Contact Form--*/
 
-.contact-page-styling{
+.contact-page-styling {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -336,24 +347,24 @@ Contact page
     -ms-flex-align: center;
 }
 
-.contact-form{
+.contact-form {
     max-width: 98%;
-    background-color: rgba(232,232,232,0.75);
+    background-color: rgba(232, 232, 232, 0.75);
     border: 1px solid #333;
     border-radius: 10px;
     padding: 8px 12px;
 }
 
-#contact-heading{
+#contact-heading {
     margin-top: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 300;
-    color:#333;
+    color: #333;
     text-transform: uppercase;
-    letter-spacing: 1px; 
+    letter-spacing: 1px;
 }
 
-#contact-details input{
+#contact-details input {
     margin: 6px 0px 6px 0px;
 }
 
@@ -363,80 +374,69 @@ Media Queries
 
 /*--------------------------------------------------iPad*/
 
-@media only screen  
-  and (max-height: 1366px) 
-  and (orientation: portrait)
-  and (-webkit-min-device-pixel-ratio: 1.5) {
-
+@media only screen and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
     /*--Contact page image--*/
 
-    #contact-img{
+    #contact-img {
         background-size: cover;
     }
 
     /*--Contact page heading--*/
 
-    #contact-heading{
+    #contact-heading {
         border-radius: 10px;
     }
-
 }
 
 @media (min-width: 800px) and (max-width: 1024px) {
-    
-    #home-style{
+    #home-style {
         padding-top: 260px;
     }
 
-    .hero-home{
+    .hero-home {
         min-height: 81vh;
     }
 
     .scb-image,
     .tlp-image,
-    .wb-image{
+    .wb-image {
         height: 100vh;
     }
 
-    #contact-img{
+    #contact-img {
         height: 104vh;
     }
-
 }
 
-
 @media (min-width: 720px) and (max-width: 800px) {
-
-    #home-style{
+    #home-style {
         padding-top: 200px;
     }
-    
-    .desktop-review{
+
+    .desktop-review {
         display: none;
     }
 
-    .mobile-review-spacing{
+    .mobile-review-spacing {
         margin-top: 100px;
     }
 
     .scb-image,
     .tlp-image,
-    .wb-image{
+    .wb-image {
         height: 100vh;
     }
 
-    #contact-img{
+    #contact-img {
         height: 104vh;
     }
-
 }
 
 @media (max-width: 720px) {
-
     /*--Header--*/
-    
-    #logo{
-        font-family: 'Raleway', sans-serif;
+
+    #logo {
+        font-family: "Raleway", sans-serif;
         font-size: 2.5rem;
         font-weight: 200;
         color: #333;
@@ -444,48 +444,47 @@ Media Queries
 
     /*--Footer--*/
 
-
-    #social-icons{
+    #social-icons {
         padding-top: 20px;
     }
 
     #copyright-info,
-    #copyright-info span{
+    #copyright-info span {
         font-size: 1.1rem;
     }
 
     /*--Homepage body--*/
 
-    .container-fluid{
+    .container-fluid {
         overflow: scroll;
     }
 
-    .hero-home{
+    .hero-home {
         height: 100vh;
     }
 
     /*--Home page about text and download btn--*/
 
-    #about-text{
+    #about-text {
         padding: 21px 0px;
-        font-size:20px;
+        font-size: 20px;
     }
 
-    #download-btn{
-        margin: 25px 0px
+    #download-btn {
+        margin: 25px 0px;
     }
 
     /*--Home page reviews--*/
 
-    .mobile-review{
+    .mobile-review {
         margin: 32px 0px 0px 0px;
     }
 
-    .mobile-review-end{
+    .mobile-review-end {
         margin-bottom: 32px;
     }
 
-    .desktop-review{
+    .desktop-review {
         display: none;
     }
 
@@ -493,32 +492,32 @@ Media Queries
 
     .scb-image,
     .tlp-image,
-    .wb-image{
+    .wb-image {
         height: 100vh;
     }
 
     /*--Ensembles page carousel captions--*/
 
-    .desktop-scb-description{
+    .desktop-scb-description {
         display: none;
     }
 
     /*--Ensembles page captions background--*/
 
-    .ensemb-carousel{
+    .ensemb-carousel {
         padding: 20px 8px;
         min-height: 232px;
     }
 
-    .ensemb-carousel h4{
+    .ensemb-carousel h4 {
         margin-bottom: 16px;
     }
 
-    .ensemb-carousel a{
+    .ensemb-carousel a {
         font-size: 18px;
     }
 
-    .ensemb-carousel p{
+    .ensemb-carousel p {
         margin: 0;
         font-size: 16px;
         text-decoration: none;
@@ -526,36 +525,34 @@ Media Queries
 
     /*--Ensembles page contact button--*/
 
-    .ensemb-contact-btn{
-        margin:0;
+    .ensemb-contact-btn {
+        margin: 0;
         padding: 32px 0px 32px 0px;
         background-color: #f5f5f5;
     }
 
-    .ensemb-contact-btn a{
+    .ensemb-contact-btn a {
         font-size: 18px;
     }
 
-    .mobile-ensemb-contact-btn{
+    .mobile-ensemb-contact-btn {
         display: initial;
     }
 
-    .desktop-ensemb-contact-btn{
+    .desktop-ensemb-contact-btn {
         display: none;
     }
 
     /*--Contact page image--*/
 
-
-    #contact-img{
+    #contact-img {
         background-position: center;
         height: 150vh;
     }
 
     /*--Contact page text--*/
 
-    #contact-heading{
+    #contact-heading {
         border-radius: 10px;
     }
-    
 }
