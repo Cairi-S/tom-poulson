@@ -6,69 +6,69 @@
 
 This is a full website for classical/contemporary trumpeter, teacher and arranger, Tom Poulson.  Tom is from England but currently lives in Stockholm, Sweden, and is active around the world.
 
-The website will feature promotional images of both solo and ensemble performances, testimonials from students and reviews of concerts, links to external webpages of groups and projects, teaching website and shop for purchasing arrangements as well as a Calander showcasing past and upcoming events and a contact page to lead potential collaborators to make contact with Tom.
+The website will feature promotional images of both solo and ensemble performances, reviews of concerts, links to external webpages of groups and projects and a contact page to lead potential collaborators to make contact with Tom.
 
-It is worth noting that, as a performer and teacher, this website is **aimed at both B2B and B2C clients**:
+It is worth noting that, as a performer, this website is **aimed at both B2B and B2C clients**:
 - B2B are professional orchestras, music clubs and music schools who may be looking for a performer or teacher.
-- B2C would be individuals looking to purchase lesson(s).
+- B2C would be private individuals looking to for a performer at private functions and events.
 
 With this in mind the website is designed to be **easily navigated,responsive and accessible** on a variety of different devices.
 
 The business goals of the website are:
 - To increase brand awareness.
-- To provide exceptional UX to encourage users to book the artist for performances/teaching.
+- To provide exceptional UX to encourage users to book the musician for performances.
 - Provide examples of the musicians range of work to showcase versatility.
-- Encourage users to make contact with the artist with all queries.
+- Encourage users to make contact with the musician with all queries.
 
 Customers to this website may be looking to:
-- Book a solo musician or an ensemble for concerts
-- Collaborate on a new project
-- Book a teacher for individual lessons or masterclasses in a higher education setting. 
+- Book a solo musician or an ensemble for concerts.
+- Collaborate on a new project.
+- Enquire about other topics such as teaching for individual lessons or masterclasses in a higher education setting. 
 
 The customer goals are:
-- Clear pricing for the customers individual needs
+- Clear,easy to navigate website showcasing the musician.
 - Easy means of Communication with the artist
 
 ### UX ###
 
 Ideal client:
 - English speaking.
-- Is a student, musician or institution looking to collaborate.
-- Are a brass group looking to purchase repertoire.
-- Has a keen interest/knowledge in classical and contemporary music.
+- Is an individual looking for a musician for a private event. orchestra or music group looking to collaborate.
+- Are an orchestra or music group looking to collaborate on a project.
+- Is an individual with a keen interest/knowledge in classical and contemporary music.
 
 Why this project is important:
 - As classical musicians often work across multiple areas their websites can often quickly overload the user with too much information.
-- This website aims to break down the different areas Tom works with in to clear, accessible areas so the user can quickly navigate to the section they are interested in whilst also encouraging them to continue browsing the website.
+- This website aims to break down the different areas the musician works within to clear, accessible areas so the user can quickly navigate to the section they are interested in whilst also encouraging them to continue browsing the website.
 
 First Time Visitor Goals:
-- Visiting the site for the first time, I want to discover more about the artist and find videos, testimonials and reviews to see if I should consider making a booking.
+- Visiting the site for the first time, I want to discover more about the musician and find information on the artist and reviews of their concerts to see if I should consider making a booking.
 - Visiting the site for the first time, I want to be able to navigate the site quickly and effectively to find what I need.
 - Visiting the site for the first time, I am looking for clearly documented experience to know if I should consider making a booking.
 
 Returning Visitor Goals:
-- As a Returning Visitor, I want to easily access their calendar to check they are actively performing and teaching.
+- As a Returning Visitor, I want to easily navigate to the Contact page to enquire about the musicians availability.
 - As a Returning Visitor, I want to find up to date testimonials and reviews of the performers work.
 - As a Returning Visitor, I want to find links to ensembles and projects that the musician is a part of to see their range.
 
 Potential Collaborator Goals:
 - As a Potential Collaborator, I want to be able to contact the musician quickly with any questions I have.
-- As a Potential Collaborator I want to be able to find clear pricings for any of my potential purchases to check whether this is within my budget.
-- As a Potential Collaborator, I want to find links to social media channels and their calendar to check they are actively performing and teaching.
+- As a Potential Collaborator I want to be able to find clear examples of the types of projects the musician participates in to know if they would be a suitable collaborator.
+- As a Potential Collaborator, I want to find links to the musicians social media channels to check they are actively performing.
 
 ### DESIGN ###
 
 **Colour Scheme**
 The three main colours I am proposing are:
-- Off white - reflects the refined style expected from a classical musician
-- Dark gray  - reflects the refined style expected from a classical musician
+- Off white - reflects the refined style expected from a classical musician.
+- Dark gray  - reflects the refined style expected from a classical musician.
 - Maroon - adds a splash of color and ties in with a color on the home page hero image.
 
 **Typography**
 
 **Fonts**
 
-Selected fonts are used with thanks to Google Fonts.  They are easy for the user to read and are complimentary to one another.
+Selected fonts are used with thanks to [Google Fonts](https://fonts.google.com/).  They are easy for the user to read and are complimentary to one another.
 - Poppins - Used in the header and footer plus and headings within the main body.
 - Raleway - Used for text within the body.
 
@@ -194,6 +194,16 @@ The creation of this website would not have been possible without:
 - [W3C CSS Validation service](https://jigsaw.w3.org/css-validator/validator) - used to check validity of website CSS code.  No errors or warnings reported.
 
 **Client Stories Testing**
+
+The most common path users take through the website is:
+
+Home > Ensembles and Projects > Contact
+
+Each of these pages has a natural progression to the next. Should the user get to the bottom of the page and decide they wish to make contact with the musician each page features an easily identifiable button which links directly to the contact page so they do not have to scroll back to the top.
+
+To reduce information overload on the Home page, the information about the musician has been reduced to an exciting headline.  The user is able to learn more by downloading a full Biography using the easy to idetify Download button which opens in a seperate tab.
+
+The Ensembles and Projects page features links to the external websites of each group or project which open in a seperate tab.  The text chosen for each group is designed to display the standard and flexibility of range that the musician has without detracting from them as a soloist.  The text and external links aim to entice the user to read more.  
 
 **Testing client stories from UX section**
 
