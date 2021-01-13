@@ -11,7 +11,7 @@
 Images
 ---------------------------------------*/
 
-/*--Hero image--*/
+/*--Home image--*/
 
 .hero-home {
     background-image: url(../images/home-hero.jpg);
@@ -21,6 +21,8 @@ Images
     width: 100%;
     min-height: 100vh;
 }
+
+/*--Ensembles image--*/
 
 .scb-image,
 .tlp-image,
@@ -355,6 +357,12 @@ Contact page
     padding: 8px 12px;
 }
 
+#contact-details input {
+    margin: 6px 0px 6px 0px;
+}
+
+/*--Contact Form text--*/
+
 #contact-heading {
     margin-top: 20px;
     font-family: "Poppins", sans-serif;
@@ -364,15 +372,11 @@ Contact page
     letter-spacing: 1px;
 }
 
-#contact-details input {
-    margin: 6px 0px 6px 0px;
-}
-
 /*---------------------------------------
 Media Queries
 ---------------------------------------*/
 
-/*--------------------------------------------------iPad*/
+/*--------------------------------------------------iPad Pro*/
 
 @media only screen and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
     /*--Contact page image--*/
@@ -389,13 +393,25 @@ Media Queries
 }
 
 @media (min-width: 800px) and (max-width: 1024px) {
+    /*--Home page padding--*/
+
     #home-style {
         padding-top: 260px;
     }
 
+    /*--Home page image--*/
+
     .hero-home {
         min-height: 81vh;
     }
+
+    /*--Home page review textbox--*/
+
+    #home-reviews p{
+        min-height: 332px;
+    }
+
+    /*--Ensemble page images--*/
 
     .scb-image,
     .tlp-image,
@@ -403,15 +419,23 @@ Media Queries
         height: 100vh;
     }
 
+    /*--Contact page image--*/
+
     #contact-img {
         height: 104vh;
     }
 }
 
+/*--------------------------------------------------iPad*/
+
 @media (min-width: 720px) and (max-width: 800px) {
+    /*--Home page padding--*/
+
     #home-style {
         padding-top: 200px;
     }
+
+    /*--Home page reviews--*/
 
     .desktop-review {
         display: none;
@@ -421,16 +445,22 @@ Media Queries
         margin-top: 100px;
     }
 
+    /*--Ensemble page images--*/
+
     .scb-image,
     .tlp-image,
     .wb-image {
         height: 100vh;
     }
 
+    /*--Contact page image--*/
+
     #contact-img {
         height: 104vh;
     }
 }
+
+/*--------------------------------------------------Mobiles*/
 
 @media (max-width: 720px) {
     /*--Header--*/
