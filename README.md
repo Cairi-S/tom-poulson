@@ -264,6 +264,21 @@ Potential Collaborator Goals:
 
 **Further testing**
 
+## DEPLOYMENT ##
+
+**Publishing**
+
+This website was published using GitHub Pages. The procedure is outlined below.
+
+1. Go to the **[GitHub](https://github.com/)** website and log in.
+2. On the top right hand corner **click the dropdown icon** next to your avatar, and **select 'Your repositories'**. 
+3. **Select the appropriate repository** (for this project the repository would be 'tom-poulson').
+4. The header of your chosen repository will have a menu of different pages you can select (you automaticall should be on 'Code').  **Click on 'Settings'** located on the far right hand side.
+5. **Scroll down** until you see the heading **'GitHub Pages'**. 
+6. Under the subheading 'Source' there is a **dropdown menu titled 'Branch'** - click on this and **select 'master branch'**. 
+7. The page will reload and you will see the **link of your published page displayed within a green banner** under 'GitHub pages'.  The text will say 'Your site is published at *website*' (in this instance https://cairi-s.github.io/tom-poulson/).
+8. **Please note** it can take a few minutes for the site to be published, you must wait until the 'GitHub pages' banner turns green before trying to open the link.
+
 **Bugs**
 
 - White band at the bottom of mobile devices on Ensemble page.  
