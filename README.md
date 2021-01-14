@@ -246,11 +246,19 @@ First Time Visitor Goals:
 
 Returning Visitor Goals:
 - As a Returning Visitor, I want to easily navigate to the Contact page to enquire about the musicians availability.
-    * Each page can access the navigation bar quickly and easily either via the navbar at the top of the page or via the Call to Action button further down the page.
+    * Each page can access the contact page quickly and easily either via the navbar at the top of the page or via the Call to Action button further down the page.
 - As a Returning Visitor, I want to find up to date testimonials and reviews of the performers work.
     * The Home page has recent reviews of performances from reputable sources.  Over time these reviews will change to reflect more recent performance reviews.
 - As a Returning Visitor, I want to find links to ensembles and projects that the musician is a part of to see their range.
     * The Ensembles and Projects page has clear promotional imagery of each group or project.  Each page links externally to that group/projects webpage - these open in a seperate tab.
+
+Potential Collaborator Goals:
+- As a Potential Collaborator, I want to be able to contact the musician quickly with any questions I have.
+    * No matter which page the user arrives to the site the are able to make quick contact with the musician via contact page either via the navbar at the top of the page or via the Call to Action button further down the page.
+- As a Potential Collaborator I want to be able to find clear examples of the types of projects the musician participates in to know if they would be a suitable collaborator.
+    * The Home page details the musicians capabilities as a soloist while the Ensembles and Projects page shows the different ensemble sizes that the musician is used to performing with (5 musicians and 10 musicians) as well as non-standard instrumentation (performances including choreography, acting and electronics).  Over time this page will be updated to include additional ensembles and projects to further showcase the musicians artistry.
+- As a Potential Collaborator, I want to find links to the musicians social media channels to check they are actively performing.
+    * The footer of every page includes links to the musicians active social media channels.  Each link opens in a seperate tab so the user does not need to navagate away from the website. 
 
 **Manual (logical) testing of all elements and functionality on every page.**
 
