@@ -244,6 +244,14 @@ First Time Visitor Goals:
     * The Reviews featured on the home page reference the musicians artistry and musicality directly.
     * The Ensembles and Projects page showcases the highly sought after groups the musician is a member of and the unique projects the musician has helped develop.
 
+Returning Visitor Goals:
+- As a Returning Visitor, I want to easily navigate to the Contact page to enquire about the musicians availability.
+    * Each page can access the navigation bar quickly and easily either via the navbar at the top of the page or via the Call to Action button further down the page.
+- As a Returning Visitor, I want to find up to date testimonials and reviews of the performers work.
+    * The Home page has recent reviews of performances from reputable sources.  Over time these reviews will change to reflect more recent performance reviews.
+- As a Returning Visitor, I want to find links to ensembles and projects that the musician is a part of to see their range.
+    * The Ensembles and Projects page has clear promotional imagery of each group or project.  Each page links externally to that group/projects webpage - these open in a seperate tab.
+
 **Manual (logical) testing of all elements and functionality on every page.**
 
 **Further testing**
