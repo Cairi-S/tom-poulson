@@ -202,7 +202,6 @@ The creation of this website would not have been possible without:
 - **Anna Parker @ Fogbank Projects**  for use of their poster designed for promotion of project The Last Post used on the Ensembles and Projects page.
 - **Peter Himsels** for use of their photograph of WorldBrass used on the Ensembles and Projects page.
 - **Kenneth Dundas** for use of their photograph of the musician smiling during rehearsal used on the Contact page.
-- **koala-dev** for .carousel-caption code on StackOverflow to align captions to start of page *credited on style.css*
 - **Sebsemillia** for .carousel-caption code on StackOverflow to align captions to center of page *credited on style.css*
 - My mentor, **Akshat Garg**, for his help and guidance throughout.
 - **Code Institute tutors and staff** for their easy to access course material.
@@ -227,6 +226,23 @@ To reduce information overload on the Home page, the information about the music
 The Ensembles and Projects page features links to the external websites of each group or project which open in a seperate tab.  The text chosen for each group is designed to display the standard and flexibility of range that the musician has without detracting from them as a soloist.  The text and external links aim to entice the user to read more.  
 
 **Testing client stories from UX section**
+
+First Time Visitor Goals:
+- Visiting the site for the first time, I want to discover more about the musician and find information on the artist and reviews of their concerts to see if I should consider making a booking.
+    * The Home page has a clean, simplistic layout.  
+    * The Hero image clearly shows the instrument the musician plays with the falling letters creating intrigue and interest.  
+    * The About text on the Home page is short and concise detailing the accolades the musician has achieved without overloading the user with unnecessary information - a PDF of the musicians full biography available to download via a clearly visible button.
+    * The reviews, taken from recent performances, are short and display the musicians musicality.  They clearly show the musicians artistry and are taken from reputable sources. 
+
+- Visiting the site for the first time, I want to be able to navigate the site quickly and effectively to find what I need.
+    * On every page the navigation bar is easy to find and use.  The page the user is visiting is underlined and an active hover function on the navigation bar shows where the user is potentially navigating to.
+    * On every page the Logo, situated in the top left of the header, navigates back to the home page which is customary on most websites. The home page is the starting point for most user stories.
+    * Each page features a Call to Action button inviting users to contact the musician, clicking this button leads them directly to the Contact page. 
+
+- Visiting the site for the first time, I am looking for clearly documented experience to know if I should consider making a booking.
+    * The About text on the Home page quickly demonstrates accolades the musician has achieved.
+    * The Reviews featured on the home page reference the musicians artistry and musicality directly.
+    * The Ensembles and Projects page showcases the highly sought after groups the musician is a member of and the unique projects the musician has helped develop.
 
 **Manual (logical) testing of all elements and functionality on every page.**
 
