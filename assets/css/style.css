@@ -27,7 +27,7 @@ Images
 .scb-image,
 .tlp-image,
 .wb-image {
-    height: 213vh;
+    height: 234vh;
     -o-object-fit: cover;
     object-fit: cover;
 }
