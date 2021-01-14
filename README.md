@@ -74,17 +74,26 @@ Selected fonts are used with thanks to [Google Fonts](https://fonts.google.com/)
 **Imagery**
 
 All Hero images used will mainly be action shots of the musician performing/teaching.  
-- The *Home page* will feature a dynamic image of the performing as a soloist.
-- The images used on the *Ensembles and Projects* page be promotional images showcasing a specific group or project.
-- The image on the *Contact page* will feature the musician smiling and looking to camera, to convey that he is approachable.
+- The **Home page** will feature a dynamic image of the performing as a soloist.
+- The images used on the **Ensembles and Projects** page be promotional images showcasing a specific group or project.
+- The image on the **Contact page** will feature the musician smiling and looking to camera, to convey that he is approachable.
 
 
 ## WIREFRAMES ##
-Link to Wireframes for
-- HOME
-- ENSEMBLES/PROJECTS
-- CONTACT
 
+Please note the navigation menu featured in the wireframe reflects additional features that could be added in the future.
+
+- HOME PAGE
+
+![HOME](assets/images/wireframe-home.png "Home page")
+
+- ENSEMBLES AND PROJECTS PAGE
+
+![ENSEMBLES AND PROJECTS](assets/images/wireframe-ensembles.png "Ensembles and Projects page")
+
+- CONTACT PAGE
+
+![CONTACT](assets/images/wireframe-contact.png "Contact page")
 
 ## FEATURES ##
 
@@ -138,9 +147,10 @@ The page concludes with a **submit button**.
 
 
 ## EXISTING FEATURES ##
+
 **Header Logo** - Appears on every page making the brand easily identifiable. The logo will react as users have come to expect - clicking on it will return them to the Home screen.
 
-**Header Navigation Bar** - Appears on every page and creates quick and easy navigation to all areas of the website.
+**Header Navigation Bar** - Appears on every page and creates quick and easy navigation to all areas of the website.  The page that the user is currently visiting is easily identifiable by being underlined.  When the user moves to select a different page the mouse position will be hightlighted by inverting the background and text colors.
 
 **Footer Copyright Information** - Appears on every page to protect the business copyright.
 
@@ -150,12 +160,20 @@ The page concludes with a **submit button**.
 
 **Images** - All images chosen are dynamic images with the aim of providing an emotional response.
 
+**Home Page** - Gives potential collaborators an initial 'hit' of knowledge about the musician without overloading them with information.  
+
+**Download button** - Users are provided the opportunity to learn more about the musician via a download button linking to a pdf of the musicians full biography.
+
+**Ensembles and Projects page** -  Users are able to learn more about the groups and projects that the musician is a part of to discover whether they musician would make a suitable partner for a collaboration.
+
+**Contact Page** - Allows potential collaborators to ask questions, and/or make an initial enquiry in to the musicians availability.
 
 ## FUTURE FEATURES ##
 
 - GDPR pop up.
 - CAPTCHA.
 - Language choice (English/Swedish).
+- High quality videos of past performances.
 - Addition of pages - teaching, arrangements and calendar.
 - Ability to take bookings for lessons/performances on website.
 - Abitilty to accept payments for bookings/music purchases on website.
