@@ -4,9 +4,9 @@
 
 [Tom Poulson - website](http://cairi-s.github.io/tom-poulson)
 
-This is a full website for classical/contemporary trumpeter, teacher and arranger, Tom Poulson.  Tom is from England but currently lives in Stockholm, Sweden, and is active around the world.
+This is a full website for classical/contemporary trumpeter, Tom Poulson.  Tom is from England but currently lives in Stockholm, Sweden, and is active around the world.
 
-The website will feature promotional images of both solo and ensemble performances, reviews of concerts, links to external webpages of groups and projects and a contact page to lead potential collaborators to make contact with Tom.
+The website will feature promotional images of both solo and ensemble performances, reviews of concerts, links to external webpages of his groups and projects and a contact page to lead potential collaborators to make contact with Tom.
 
 It is worth noting that, as a performer, this website is **aimed at both B2B and B2C clients**:
 - B2B are professional orchestras, music clubs and music schools who may be looking for a performer or teacher.
@@ -26,14 +26,14 @@ Customers to this website may be looking to:
 - Enquire about other topics such as teaching for individual lessons or masterclasses in a higher education setting. 
 
 The customer goals are:
-- Clear,easy to navigate website showcasing the musician.
-- Easy means of Communication with the artist
+- A clear, easy to navigate website showcasing the performer.
+- Easy means of Communication with the musician.
 
 ## UX ##
 
 Ideal client:
 - English speaking.
-- Is an individual looking for a musician for a private event. orchestra or music group looking to collaborate.
+- Is an individual looking for a musician for a private event.
 - Are an orchestra or music group looking to collaborate on a project.
 - Is an individual with a keen interest/knowledge in classical and contemporary music.
 
@@ -42,7 +42,7 @@ Why this project is important:
 - This website aims to break down the different areas the musician works within to clear, accessible areas so the user can quickly navigate to the section they are interested in whilst also encouraging them to continue browsing the website.
 
 First Time Visitor Goals:
-- Visiting the site for the first time, I want to discover more about the musician and find information on the artist and reviews of their concerts to see if I should consider making a booking.
+- Visiting the site for the first time, I want to discover more about the musician and find reviews of their concerts to see if I should consider making a booking.
 - Visiting the site for the first time, I want to be able to navigate the site quickly and effectively to find what I need.
 - Visiting the site for the first time, I am looking for clearly documented experience to know if I should consider making a booking.
 
@@ -81,7 +81,7 @@ All Hero images used will mainly be action shots of the musician performing/teac
 
 ## WIREFRAMES ##
 
-Please note the navigation menu featured in the wireframe reflects additional features that could be added in the future.
+Please note the navigation menu featured in the wireframe reflects additional pages and features that could be added in the future.
 
 - HOME PAGE
 
@@ -99,7 +99,7 @@ Please note the navigation menu featured in the wireframe reflects additional fe
 
 The **header** for each page will be conventional with the logo in the top left hand corner and navigation bar to the right.   The logo will be in dark gray with the navbar in maroon.
 
-The **footer** for each page will include copyright information and links the the musicians social media centered (desktop) shown by icons.  These will be in maroon.
+The **footer** for each page will include copyright information and links the the musicians social media centered shown by icons.  These will be in maroon.
 
 When you **hover over an item in the navbar** the text will be outlined by a box - the text and background color will invert so the text is off-white and the box is maroon.
 
@@ -180,35 +180,27 @@ The page concludes with a **submit button**.
 
 ## TECHNOLOGY ##
 
+This project uses the programming languages:
+- HTML
+- CSS
+
+This project was built using [Gitpod](https://www.gitpod.io/)
+
 The creation of this website would not have been possible without:
 - [Balsamiq](https://balsamiq.com/) - used for creation of Wireframes.
-- [Bootstrap v.4](https://getbootstrap.com/docs/4.0/getting-started/introduction/) -  used for their navbar, grid system and carousel.
+- [Bootstrap4](https://getbootstrap.com/docs/4.0/getting-started/introduction/) -  used for their navbar, grid system and carousel.
 - [Google Fonts](https://fonts.google.com/) -  used for fonts styles, namely Poppins and Raleway.
 - [Font Awesome](https://fontawesome.com/) - used for icons, namely the Download icon on the home page.
-
 - [Color Tool](https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=560027&secondary.color=E0E0E0) - used to select complimentary colors for the website design.
 - [Tinypng](https://tinypng.com/) - used to reduce the file size of all images.
-- [Online-Convert.com](https://image.online-convert.com/convert-to-jpg), thank you for your assistance in converting jpeg to jpg files.
-- [AutoPrefixer.github.io](http://autoprefixer.github.io/), thank you for your assistance
+- [Online-Convert.com](https://image.online-convert.com/convert-to-jpg) - used for converting jpeg to jpg files.
+- [AutoPrefixer.github.io](http://autoprefixer.github.io/) - used for CSS prefixing.
+- [jQuery](https://jquery.com/) - used to reference JavaScript for responsiveness and functionality on navbar and carousel.
+- [Popper.js](https://popper.js.org/) - used to reference JavaScript for responsiveness and functionality on navbar and carousel.
 
 - The W3C Markup Validation service - HTML and CSS validators.
 
-
-### CREDITS ###
-
-- **Neil Hanna Photography** for use of his press photograph of 'The Last Post' used on the Home page.
-- **Ed Poulson** for his help with editing images on photoshop.
-- **Miki Anagrius** for use of his photograph of Stockholm Chamber Brass used on the Ensembles and Projects page.
-- **Anna Parker @ Fogbank Projects**  for use of their poster designed for promotion of project The Last Post used on the Ensembles and Projects page.
-- **Peter Himsels** for use of their photograph of WorldBrass used on the Ensembles and Projects page.
-- **Kenneth Dundas** for use of their photograph of the musician smiling during rehearsal used on the Contact page.
-- **Sebsemillia** for .carousel-caption code on StackOverflow to align captions to center of page *credited on style.css*
-- My mentor, **Akshat Garg**, for his help and guidance throughout.
-- **Code Institute tutors and staff** for their easy to access course material.
-- The wonderful **Code Institute Slack community**.
-- The **StackOverlow community**. 
-
-### TESTING ###
+## TESTING ##
 
 - [W3C Markup Validation service](https://validator.w3.org/) - used to check validity of website HTML code.  No errors or warnings reported.
 - [W3C CSS Validation service](https://jigsaw.w3.org/css-validator/validator) - used to check validity of website CSS code.  No errors or warnings reported.
@@ -378,8 +370,16 @@ MOBILE RESPONSIVENESS
 - Reported bugs/glitches included:
     * Mobile phones - a lag on the scroll on the home page.  Noone reported this greatly impacted the use of the website, some reported they were only aware of it after it had been brought to their attention.  No action has been taken to rectify this.
 
+**Bugs**
+
+- White band at the bottom of mobile devices on Ensemble page.  
+
+Solution: changing the chosen images from landscape images to portrait images.  Changing position of contact button on this page between desktop and mobile devices.
+
 
 ## DEPLOYMENT ##
+
+This project was developed using [Gitpod](https://www.gitpod.io/), committed to git and pushed to GitHub using the built in functionality.
 
 **Publishing**
 
@@ -394,8 +394,17 @@ This website was published using GitHub Pages. The procedure is outlined below.
 7. The page will reload and you will see the **link of your published page displayed within a green banner** under 'GitHub pages'.  The text will say 'Your site is published at *website*' (in this instance https://cairi-s.github.io/tom-poulson/).
 8. **Please note** it can take a few minutes for the site to be published, you must wait until the 'GitHub pages' banner turns green before trying to open the link.
 
-**Bugs**
+## CREDITS ##
 
-- White band at the bottom of mobile devices on Ensemble page.  
-
-Solution: changing the chosen images from landscape images to portrait images.  Changing position of contact button on this page between desktop and mobile devices.  Increasing width to 110% on mobile devices.  NB still not solved for 2x mobile devices Pixel 2XL and iPhoneX .
+- **Tom Poulson** for all text used on this website.
+- **Neil Hanna Photography** for use of his press photograph of 'The Last Post' used on the Home page.
+- **Ed Poulson** for his help with editing images on photoshop.
+- **Miki Anagrius** for use of his photograph of Stockholm Chamber Brass used on the Ensembles and Projects page.
+- **Anna Parker @ Fogbank Projects**  for use of their poster designed for promotion of project The Last Post used on the Ensembles and Projects page.
+- **Peter Himsels** for use of their photograph of WorldBrass used on the Ensembles and Projects page.
+- **Kenneth Dundas** for use of their photograph of the musician smiling during rehearsal used on the Contact page.
+- **Sebsemillia** for .carousel-caption code on StackOverflow to align captions to center of page *credited on style.css*
+- My mentor, **Akshat Garg**, for his help and guidance throughout.
+- **Code Institute tutors and staff** for their easy to access course material.
+- The wonderful **Code Institute Slack community**.
+- The **StackOverlow community**. 
