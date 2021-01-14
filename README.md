@@ -29,7 +29,7 @@ The customer goals are:
 - Clear,easy to navigate website showcasing the musician.
 - Easy means of Communication with the artist
 
-### UX ###
+## UX ##
 
 Ideal client:
 - English speaking.
@@ -56,15 +56,14 @@ Potential Collaborator Goals:
 - As a Potential Collaborator I want to be able to find clear examples of the types of projects the musician participates in to know if they would be a suitable collaborator.
 - As a Potential Collaborator, I want to find links to the musicians social media channels to check they are actively performing.
 
-### DESIGN ###
+## DESIGN ##
 
 **Colour Scheme**
+
 The three main colours I am proposing are:
 - Off white - reflects the refined style expected from a classical musician.
 - Dark gray  - reflects the refined style expected from a classical musician.
 - Maroon - adds a splash of color and ties in with a color on the home page hero image.
-
-**Typography**
 
 **Fonts**
 
@@ -72,72 +71,76 @@ Selected fonts are used with thanks to [Google Fonts](https://fonts.google.com/)
 - Poppins - Used in the header and footer plus and headings within the main body.
 - Raleway - Used for text within the body.
 
-**Imagery/Videos**
+**Imagery**
 
 All Hero images used will mainly be action shots of the musician performing/teaching.  
-- The *Home page* will feature an image of Tom performing a solo project with letters falling from the ceiling.
-- The images and videos used on the *Ensembles/Projects* page will be of the musician performing with that specific Group.
+- The *Home page* will feature a dynamic image of the performing as a soloist.
+- The images used on the *Ensembles and Projects* page be promotional images showcasing a specific group or project.
 - The image on the *Contact page* will feature the musician smiling and looking to camera, to convey that he is approachable.
 
 
-### WIREFRAMES ###
+## WIREFRAMES ##
 Link to Wireframes for
 - HOME
 - ENSEMBLES/PROJECTS
 - CONTACT
 
 
-### FEATURES ###
+## FEATURES ##
 
-The *header* for each page will be conventional with the logo in the top left hand corner and navigation bar to the right.   The logo will be in dark gray with the navbar in maroon.
+The **header** for each page will be conventional with the logo in the top left hand corner and navigation bar to the right.   The logo will be in dark gray with the navbar in maroon.
 
-The *footer* for each page will include copyright information and links the the musicians social media centered (desktop) shown by icons.
+The **footer** for each page will include copyright information and links the the musicians social media centered (desktop) shown by icons.  These will be in maroon.
 
-When you *hover over a clickable link* in the navbar or on the webpage the text will be outlined by a maroon box and the text will turn off white showing the user where they are clicking
+When you **hover over an item in the navbar** the text will be outlined by a box - the text and background color will invert so the text is off-white and the box is maroon.
 
-The *Home and Contact pages* will feature a different Hero images aimed to showcase the area of that pages focus - these pictures will be action photos with the hope of giving energy to the webpage and giving a positive emotional response toward the site and the musician.
-
-
-**Home**
-
-- The *Hero image* will be static with a mini biog, *link to full biography* and *reviews* of past performances featured on this page.  
-
-- The *link to a full biography* will feature a download icon and *open to a pdf in a new tab*.
-
-- There will also be a *Call to Action* button directing users to the *Contact page* should the user have already decided that they want to make contact with the musician.
+The **Home and Contact pages** will feature a different Hero images aimed to showcase the area of that pages focus - these pictures will be action photos with the hope of giving energy to the webpage and giving a positive emotional response toward the site and the musician.
 
 
-**Ensembles and Projects**
 
-A major part of this musicians work is through solo projects and playing with other ensembles - many of these are prestigious in themselves and users may be looking to find out more information about these projects, therefore it is necessary to highlight them in their own page.
+### **Home** ###
 
-- Each ensemble or project mentioned will feature a *subtitle*, a description of the Group and *photograph or video* showcasing their music. 
+The **Hero image** will be static with a text box featuring a mini biography on the right, within this text box the user be prompted to **download full biography** via a button. Three seperate **reviews** of recent performances will be featured above the footer. On mobile phones the hero image will be static while the text scrolls over the image. 
 
-- Each *Subtitle* will *link to an external website* which will *open in a new Tab*.
+The **download button** will feature a download icon and **open to a pdf in a new tab**.
 
-- Photographs will feature the musician performing with the ensemble.  *Videos* will be *hosted by XXX.
+On **iPad and Mobile devices** only the two more prestigious reviews will be featured to reduce scroll time and stop the potential for information overload.
 
-- There will also be a *Call to Action button* asking the user if they want to collaborate and directing users to the *Contact page*.
+As part of the footer there will be a **Call to Action** button directing users to the **Contact page** should the user have already decided that they want to make contact with the musician.
 
-**Contact**
 
-The right of the page will have an engaging image of the musician smiling and engaging with others.
+### **Ensembles and Projects** ###
 
-Next to the image there will be a *contact form*. 
+A major part of this musicians work is through solo projects and playing with other ensembles - many of these are prestigious in themselves and users may be looking to find out more information about these projects, therefore it is necessary to highlight them in their own page.  
+
+This page will feature a **carousel** of images with captions showcasing each ensemble or project the musician is involved in.
+
+Each ensemble or project mentioned will feature a **title**, a description of the Group and **photograph** showcasing their music. 
+
+Each **title** will be a **link to an external website** which will **open in a new Tab**.
+
+Photographs or images used will be promotional shots used by each group or project for cohesiveness should the user seperately search for that ensemble or project.
+
+There will also be a **Call to Action button** asking the user if they want to collaborate and directing users to the **Contact page**.
+
+### **Contact** ###
+
+The **hero image** will be of the musician smiling to camera to showcase their warm personality and hopefully encourage collaboration.
+
+Centered on the page will be a **contact form**. 
 
 Everyone wanting to make an enquiry must provide their: 
 - Name.
-- Contact email address. 
-- Subject for their message 
+- Contact email address.
 - A message.  
 
-The page concludes with a submit button
+The page concludes with a **submit button**.
 
 
-### EXISTING FEATURES ### 
+## EXISTING FEATURES ##
 **Header Logo** - Appears on every page making the brand easily identifiable. The logo will react as users have come to expect - clicking on it will return them to the Home screen.
 
-**Header Navigation Bar** - Appears on every page and creates Quick and easy navigation to all areas of the website.
+**Header Navigation Bar** - Appears on every page and creates quick and easy navigation to all areas of the website.
 
 **Footer Copyright Information** - Appears on every page to protect the business copyright.
 
@@ -148,7 +151,7 @@ The page concludes with a submit button
 **Images** - All images chosen are dynamic images with the aim of providing an emotional response.
 
 
-### FUTURE FEATURES ###
+## FUTURE FEATURES ##
 
 - GDPR pop up.
 - CAPTCHA.
@@ -157,7 +160,7 @@ The page concludes with a submit button
 - Ability to take bookings for lessons/performances on website.
 - Abitilty to accept payments for bookings/music purchases on website.
 
-### TECHNOLOGY ###
+## TECHNOLOGY ##
 
 The creation of this website would not have been possible without:
 - [Balsamiq](https://balsamiq.com/) - used for creation of Wireframes.
