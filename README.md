@@ -260,9 +260,124 @@ Potential Collaborator Goals:
 - As a Potential Collaborator, I want to find links to the musicians social media channels to check they are actively performing.
     * The footer of every page includes links to the musicians active social media channels.  Each link opens in a seperate tab so the user does not need to navagate away from the website. 
 
-**Manual (logical) testing of all elements and functionality on every page.**
+**Manual testing of all elements and functionality on every page.**
+
+HOME PAGE
+
+*Logo*
+
+- Hover over logo and ensure there is no discernable change to the logo other than the pointer turning to a hand.
+- Click logo and ensure it links to the "Home" page
+
+*Navigation bar*
+
+- Navigate between the "Home", "Ensembles and Projects" and "Contact" page from a desktop and confirm each links to the corresponding page.
+- Change the screen size to mobile device to verify that the navigation bar is responsive and switches from inline menu to burger icon dropdown menu at the appropriate breakpoint.
+- Hover over each menu item in the navigation bar to check that the text and background color invert.
+- Check that the appropriate menu item is underlined to show the active page (in this instance 'Home').
+- Click on the logo in the navigation bar and verify that it links to the home page.
+
+*Hero image*
+
+- Reduce and expand width of window to confirm that the overlay on top of image responds correctly.
+
+*About text*
+
+- Reduce and expand width of window to confirm that the text in this section responds correctly and looks good on all device widths.
+- Check the text for spelling and grammar errors.
+
+*Download Button*
+
+- Hover over the download button to ensure that the text changes from sentence case to uppercase and becomes underlined.
+- Click the button on both desktop and mobile devices and check that the PDF download opens in a new window.
+
+*Reviews*
+
+- Reduce and expand the width of the window to ensure that the number of reviews on display changes from three to two when changing from desktop to mobile screen size.
+- Check the text for spelling and grammar errors.
+
+*Call to action button*
+
+- Hover over the download button to ensure that the text changes from sentence case to uppercase and becomes underlined.
+- Click the call to action button and confirm that it links to the contact page.
+
+*Footer*
+
+- Hover over each social media icon and confirm the pointer changes to a hand icon as expected.
+- Click on each icon to ensure they open on the expected social media page.
+- Make the window width smaller and larger to ensure responsiveness.
+
+ENSEMBLES AND PROJECTS PAGE
+
+*Logo and Navigation bar*
+
+- Repeat the steps listed for the home page.
+- Check the HTML code is the same between ensembles.html and index.html
+
+*Stockholm Chamber Brass page*
+
+- Check image covers the page and all group members are visible.
+- Click groups title and check it links to the Stockholm Chamber Brass external website in seperate tab.
+- Check text for spelling and grammar errors.
+- Click 'here' to check that this links to the Stockholm Chamber Brass Academy external website in a seperate tab.
+
+- Hover over the call to action button to ensure that the text changes from sentence case to uppercase and becomes underlined.
+- Click the call to action button and confirm that it links to the contact page.
+- Reduce the screen size to a mobile breakpoint to ensure the call to action button moves from the text box to the footer.
+
+- Hover over both the right and left carousel navigation buttons to ensure their opactiy changes.
+- Click both the right and left carousel navigation buttons to ensure their opacity changes.
+
+*The above steps were repeated on 'The Last Post' and 'WorldBrass' carousel pages*
+
+*Footer*
+
+- Repeat the steps listed for the home page.
+- Check the HTML code matches index.html.
+
+CONTACT PAGE
+
+*Logo and Navigation bar*
+
+- Repeat the steps listed for the Home and Ensemble and Projects pages.
+
+*Hero image*
+
+- Verify the image covers the full width and height of the desktop and responds appropriately when the screen size is reduced.
+
+*Contact form*
+
+- Attempted to submit the form without completing any fields - relevant error message appears.
+- Attempted to submit the form using an email address excluding an @ sign - relevant error message appears.
+- Attempted to submit the form without a message - relevant error message appears.
+
+*Footer*
+
+- Repeat the steps listed for the Home and Ensemble and Projects pages.
+
+MOBILE RESPONSIVENESS 
+
+- Each page was tested using [Google DevTools](https://developers.google.com/web/tools/chrome-devtools) to ensure it looks good and reacts as expected on all listed devices.
 
 **Further testing**
+
+- I invited friends and family to view the site on their devices and report any issues they find.  Devices used included:
+    * MacBook
+    * MacBook Air 
+    * MacBook Pro 
+    * iPad
+    * iPad Pro
+    * Samsung S20
+    * Samsung J6
+    * iPhone 6S
+    * iPhone XR
+    * iPhone SE 
+    * Pocophone F1 Mio 
+    * Xiaomi Mi 10T Lite 
+
+- Reported bugs/glitches included:
+    * Mobile phones - a lag on the scroll on the home page.  Noone reported this greatly impacted the use of the website, some reported they were only aware of it after it had been brought to their attention.  No action has been taken to rectify this.
+
 
 ## DEPLOYMENT ##
 
