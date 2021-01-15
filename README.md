@@ -368,7 +368,8 @@ MOBILE RESPONSIVENESS
     * Xiaomi Mi 10T Lite 
 
 - Reported bugs/glitches included:
-    * Mobile phones - a lag on the scroll on the home page.  Noone reported this greatly impacted the use of the website, some reported they were only aware of it after it had been brought to their attention.  No action has been taken to rectify this.
+    * Mobile phones - a lag on the scroll on the home page.  Noone reported this greatly impacted the use of the website, some reported they were only aware of it after it had been brought to their attention.  No action has been taken to rectify this as no user reported that this negatively affected their usage/enjoyment of the website.
+    * Ensembles and Carousels page - some users reported the text was difficult to read on on the Stockholm Chamber Brass page. To rectify this the opacity of the text container was increased from 0.75 to 0.8. 
 
 **Bugs**
 
@@ -404,7 +405,8 @@ This website was published using GitHub Pages. The procedure is outlined below.
 - **Peter Himsels** for use of their photograph of WorldBrass used on the Ensembles and Projects page.
 - **Kenneth Dundas** for use of their photograph of the musician smiling during rehearsal used on the Contact page.
 - **Sebsemillia** for .carousel-caption code on StackOverflow to align captions to center of page *credited on style.css*
-- My mentor, **Akshat Garg**, for his help and guidance throughout.
+- The **StackOverlow community**.
+- Developers **Anna Greaves** and **LigaMoon** whose README.md documents I referenced for guidance.
 - **Code Institute tutors and staff** for their easy to access course material.
 - The wonderful **Code Institute Slack community**.
-- The **StackOverlow community**. 
+- My mentor, **Akshat Garg**, for his help and guidance throughout.
