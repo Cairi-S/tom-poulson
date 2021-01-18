@@ -2,7 +2,7 @@
 
 ## Trumpeter, Teacher and Arranger ##
 
-[Tom Poulson - website](http://cairi-s.github.io/tom-poulson)
+### [Link to live website](http://cairi-s.github.io/tom-poulson) ###
 
 This is a full website for classical/contemporary trumpeter, Tom Poulson.  Tom is from England but currently lives in Stockholm, Sweden, and is active around the world.
 
@@ -58,20 +58,20 @@ Potential Collaborator Goals:
 
 ## DESIGN ##
 
-**Colour Scheme**
+**COLOR SCHEME**
 
 The three main colours I am proposing are:
 - Off white - reflects the refined style expected from a classical musician.
 - Dark gray  - reflects the refined style expected from a classical musician.
 - Maroon - adds a splash of color and ties in with a color on the home page hero image.
 
-**Fonts**
+**FONTS**
 
 Selected fonts are used with thanks to [Google Fonts](https://fonts.google.com/).  They are easy for the user to read and are complimentary to one another.
 - Poppins - Used in the header and footer plus and headings within the main body.
 - Raleway - Used for text within the body.
 
-**Imagery**
+**IMAGERY**
 
 All Hero images used will mainly be action shots of the musician performing/teaching.  
 - The **Home page** will feature a dynamic image of the performing as a soloist.
@@ -83,15 +83,15 @@ All Hero images used will mainly be action shots of the musician performing/teac
 
 Please note the navigation menu featured in the wireframe reflects additional pages and features that could be added in the future.
 
-- HOME PAGE
+**HOME PAGE**
 
 ![HOME](assets/images/wireframe-home.png "Home page")
 
-- ENSEMBLES AND PROJECTS PAGE
+**ENSEMBLES AND PROJECTS PAGE**
 
 ![ENSEMBLES AND PROJECTS](assets/images/wireframe-ensembles.png "Ensembles and Projects page")
 
-- CONTACT PAGE
+**CONTACT PAGE**
 
 ![CONTACT](assets/images/wireframe-contact.png "Contact page")
 
@@ -103,22 +103,21 @@ The **footer** for each page will include copyright information and links the th
 
 When you **hover over an item in the navbar** the text will be outlined by a box - the text and background color will invert so the text is off-white and the box is maroon.
 
-The **Home and Contact pages** will feature a different Hero images aimed to showcase the area of that pages focus - these pictures will be action photos with the hope of giving energy to the webpage and giving a positive emotional response toward the site and the musician.
+The **home and contact pages** will feature a different Hero images aimed to showcase the area of that pages focus - these pictures will be action photos with the hope of giving energy to the webpage and giving a positive emotional response toward the site and the musician.
 
 
+**HOME**
 
-### **Home** ###
+The **hero image** will be static with a text box featuring a mini biography on the right, within this text box the user be prompted to **download full biography** via a button. Three seperate **reviews** of recent performances will be featured above the footer. On mobile phones the hero image will be static while the text scrolls over the image. 
 
-The **Hero image** will be static with a text box featuring a mini biography on the right, within this text box the user be prompted to **download full biography** via a button. Three seperate **reviews** of recent performances will be featured above the footer. On mobile phones the hero image will be static while the text scrolls over the image. 
+The **download button** will feature a download icon and **open to a PDF in a new tab**.
 
-The **download button** will feature a download icon and **open to a pdf in a new tab**.
+On **iPad and mobile devices** only the two more prestigious reviews will be featured to reduce scroll time and stop the potential for information overload.
 
-On **iPad and Mobile devices** only the two more prestigious reviews will be featured to reduce scroll time and stop the potential for information overload.
-
-As part of the footer there will be a **Call to Action** button directing users to the **Contact page** should the user have already decided that they want to make contact with the musician.
+As part of the footer there will be a **call to action** button directing users to the **contact page** should the user have already decided that they want to make contact with the musician.
 
 
-### **Ensembles and Projects** ###
+**ENSEMBLES AND PROJECTS**
 
 A major part of this musicians work is through solo projects and playing with other ensembles - many of these are prestigious in themselves and users may be looking to find out more information about these projects, therefore it is necessary to highlight them in their own page.  
 
@@ -126,13 +125,13 @@ This page will feature a **carousel** of images with captions showcasing each en
 
 Each ensemble or project mentioned will feature a **title**, a description of the Group and **photograph** showcasing their music. 
 
-Each **title** will be a **link to an external website** which will **open in a new Tab**.
+Each **title** will be a **link to an external website** which will **open in a new tab**.
 
 Photographs or images used will be promotional shots used by each group or project for cohesiveness should the user seperately search for that ensemble or project.
 
-There will also be a **Call to Action button** asking the user if they want to collaborate and directing users to the **Contact page**.
+There will also be a **call to action button** asking the user if they want to collaborate and directing users to the **contact page**.
 
-### **Contact** ###
+**CONTACT** 
 
 The **hero image** will be of the musician smiling to camera to showcase their warm personality and hopefully encourage collaboration.
 
@@ -206,7 +205,7 @@ The creation of this website would not have been possible without:
 - [W3C Markup Validation service](https://validator.w3.org/) - used to check validity of website HTML code.  No errors or warnings reported.
 - [W3C CSS Validation service](https://jigsaw.w3.org/css-validator/validator) - used to check validity of website CSS code.  No errors or warnings reported.
 
-**Client Stories Testing**
+**CLIENT STORIES TESTING**
 
 The most common path users take through the website is:
 
@@ -218,7 +217,7 @@ To reduce information overload on the Home page, the information about the music
 
 The Ensembles and Projects page features links to the external websites of each group or project which open in a seperate tab.  The text chosen for each group is designed to display the standard and flexibility of range that the musician has without detracting from them as a soloist.  The text and external links aim to entice the user to read more.  
 
-**Testing client stories from UX section**
+**TESTING CLIENT STORIES FROM UX SECTION**
 
 First Time Visitor Goals:
 - Visiting the site for the first time, I want to discover more about the musician and find information on the artist and reviews of their concerts to see if I should consider making a booking.
@@ -253,7 +252,7 @@ Potential Collaborator Goals:
 - As a Potential Collaborator, I want to find links to the musicians social media channels to check they are actively performing.
     * The footer of every page includes links to the musicians active social media channels.  Each link opens in a seperate tab so the user does not need to navagate away from the website. 
 
-**Manual testing of all elements and functionality on every page.**
+**MANUAL TESTING**
 
 HOME PAGE
 
@@ -352,7 +351,7 @@ MOBILE RESPONSIVENESS
 
 Each page was tested using [Google DevTools](https://developers.google.com/web/tools/chrome-devtools) to ensure it looks good and reacts as expected on all listed devices.
 
-**Further testing**
+**FURTHER TESTING**
 
 - I invited friends and family to view the site on their devices and report any issues they find.  Devices used included:
     * MacBook
@@ -376,7 +375,7 @@ ADDITIONAL TESTING
 
 In addition to Google Google Chromes [DevTools](https://developers.google.com/web/tools/chrome-devtools) I used the [Lighthouse](https://developers.google.com/web/tools/lighthouse) feature to check the capabilities of the website.  At present all desktop scores are above 90 and mobile scores are above **Y** with the aim of improving upon these over time. 
 
-**Bugs**
+**BUGS**
 
 - White band at the bottom of mobile devices on Ensemble page.  
 
