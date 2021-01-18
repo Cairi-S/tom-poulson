@@ -195,6 +195,7 @@ The creation of this website would not have been possible without:
 - [Tinypng](https://tinypng.com/) - used to reduce the file size of all images.
 - [Online-Convert.com](https://image.online-convert.com/convert-to-jpg) - used for converting jpeg to jpg files.
 - [AutoPrefixer.github.io](http://autoprefixer.github.io/) - used for CSS prefixing.
+- [HTML Formatter](https://webformatter.com/html) - used to help format HTML and CSS code.
 - [jQuery](https://jquery.com/) - used to reference JavaScript for responsiveness and functionality on navbar and carousel.
 - [Popper.js](https://popper.js.org/) - used to reference JavaScript for responsiveness and functionality on navbar and carousel.
 
@@ -349,7 +350,7 @@ CONTACT PAGE
 
 MOBILE RESPONSIVENESS 
 
-- Each page was tested using [Google DevTools](https://developers.google.com/web/tools/chrome-devtools) to ensure it looks good and reacts as expected on all listed devices.
+Each page was tested using [Google DevTools](https://developers.google.com/web/tools/chrome-devtools) to ensure it looks good and reacts as expected on all listed devices.
 
 **Further testing**
 
@@ -368,8 +369,12 @@ MOBILE RESPONSIVENESS
     * Xiaomi Mi 10T Lite 
 
 - Reported bugs/glitches included:
-    * Mobile phones - a lag on the scroll on the home page.  Noone reported this greatly impacted the use of the website, some reported they were only aware of it after it had been brought to their attention.  No action has been taken to rectify this as no user reported that this negatively affected their usage/enjoyment of the website.
-    * Ensembles and Carousels page - some users reported the text was difficult to read on on the Stockholm Chamber Brass page. To rectify this the opacity of the text container was increased from 0.75 to 0.8. 
+    * Mobile phones - a lag on the scroll on the home page.  Noone reported this greatly impacted the use of the website and some reported they were only aware of it after it had been brought to their attention.  No action has been taken to rectify this as no user reported that this negatively affected their usage/enjoyment of the website.
+    * Ensembles and Carousels page - some users reported the text was difficult to read on on the Stockholm Chamber Brass page. To rectify this the opacity of the text container was increased from 0.75 to 0.8.
+
+ADDITIONAL TESTING
+
+In addition to Google Google Chromes [DevTools](https://developers.google.com/web/tools/chrome-devtools) I used the [Lighthouse](https://developers.google.com/web/tools/lighthouse) feature to check the capabilities of the website.  At present all desktop scores are above **X** and mobile scores are above **Y** with the aim of improving upon these over time. 
 
 **Bugs**
 
