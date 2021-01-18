@@ -374,13 +374,17 @@ Each page was tested using [Google DevTools](https://developers.google.com/web/t
 
 ADDITIONAL TESTING
 
-In addition to Google Google Chromes [DevTools](https://developers.google.com/web/tools/chrome-devtools) I used the [Lighthouse](https://developers.google.com/web/tools/lighthouse) feature to check the capabilities of the website.  At present all desktop scores are above **X** and mobile scores are above **Y** with the aim of improving upon these over time. 
+In addition to Google Google Chromes [DevTools](https://developers.google.com/web/tools/chrome-devtools) I used the [Lighthouse](https://developers.google.com/web/tools/lighthouse) feature to check the capabilities of the website.  At present all desktop scores are above 90 and mobile scores are above **Y** with the aim of improving upon these over time. 
 
 **Bugs**
 
 - White band at the bottom of mobile devices on Ensemble page.  
 
 Solution: changing the chosen images from landscape images to portrait images.  Changing position of contact button on this page between desktop and mobile devices.
+
+- Form not taking you to valid submit page, with the understanding that for MS1 it forms are not required to be fully functional.
+
+Solution: re-reading Code Institute lesson on forms and updating code to include method and post attributes.
 
 
 ## DEPLOYMENT ##
