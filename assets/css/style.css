@@ -75,6 +75,14 @@ Buttons
     text-align: center;
 }
 
+#download-btn,
+#home-contact-btn {
+    margin: 25px;
+    padding: 10px 16px;
+    text-align: center;
+    background-color: rgba(76, 17, 48, 0.8);
+    border-radius: 20px;
+}
 #download-btn i,
 #home-contact-btn i {
     color: #f5f5f5;
@@ -87,15 +95,12 @@ Buttons
     font-size: 18px;
     font-weight: 300;
     color: #f5f5f5;
-    border-radius: 25px;
-    background-color: #4c1130;
     text-decoration: none;
 }
 
-#download-btn:hover,
-#home-contact-btn:hover {
-    text-decoration: underline;
-    text-transform: uppercase;
+.hvr-sweep-to-bottom:before {
+    background: #4c1130;
+    border-radius: 20px;
 }
 
 .contact-btn-home-spacing {
@@ -230,7 +235,7 @@ Footer
 
 #social-icons i {
     padding: 0;
-    font-size: 1.75rem;
+    font-size: 3rem;
     color: #4c1130;
 }
 
