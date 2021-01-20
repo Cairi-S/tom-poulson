@@ -255,7 +255,7 @@ Home page
 ---------------------------------------*/
 
 #home-style {
-    padding: 162px 40px;
+    padding: 162px 40px 0px;
     text-align: center;
 }
 
@@ -267,7 +267,7 @@ Home page
 
 #about-text,
 #home-reviews p {
-    min-height: 260px;
+    min-height: 262px;
     padding: 22px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -292,6 +292,10 @@ Home page
 #home-reviews p {
     font-family: "Poppins", sans-serif;
     font-weight: 200;
+}
+
+.review-spacing{
+    margin: 32px 4px;
 }
 
 /*---------------------------------------
