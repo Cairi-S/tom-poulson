@@ -190,6 +190,8 @@ The creation of this website would not have been possible without:
 - [Bootstrap4](https://getbootstrap.com/docs/4.0/getting-started/introduction/) -  used for their navbar, grid system and carousel.
 - [Google Fonts](https://fonts.google.com/) -  used for fonts styles, namely Poppins and Raleway.
 - [Font Awesome](https://fontawesome.com/) - used for icons, namely the Download icon on the home page.
+- [Hover.css](https://ianlunn.github.io/Hover/) - used for hover effect on download and contact links.
+- [cdnjs.com](https://cdnjs.com/) - used to deliver hover functionality on links
 - [Color Tool](https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=560027&secondary.color=E0E0E0) - used to select complimentary colors for the website design.
 - [Tinypng](https://tinypng.com/) - used to reduce the file size of all images.
 - [Online-Convert.com](https://image.online-convert.com/convert-to-jpg) - used for converting jpeg to jpg files.
