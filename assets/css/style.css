@@ -183,8 +183,7 @@ Header
 /*--Navbar--*/
 
 #menu {
-    margin: 0px 147px 0px 0px;
-    padding: 0;
+    padding: 0 40px;
 }
 
 #menu a {
@@ -199,13 +198,13 @@ Header
 
 #menu a:hover {
     border-radius: 25px;
-    padding: 8px;
     color: #f5f5f5;
     background-color: rgba(76, 17, 48, 0.75);
 }
 
 #menu > .active {
     text-decoration: underline;
+    text-underline-position: under;
 }
 
 /*---------------------------------------
