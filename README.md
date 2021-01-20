@@ -4,6 +4,8 @@
 
 ### [Link to live website](http://cairi-s.github.io/tom-poulson) ###
 
+![MOCKUP OF WEBSITE](assets/wireframes/tompoulson-mockup.png "Mockup of the website of Tom Poulson")
+
 This is a full website for classical/contemporary trumpeter, Tom Poulson.  Tom is from England but currently lives in Stockholm, Sweden, and is active around the world.
 
 The website will feature promotional images of both solo and ensemble performances, reviews of concerts, links to external webpages of his groups and projects and a contact page to lead potential collaborators to make contact with Tom.
