@@ -381,7 +381,7 @@ Contact page
 Media Queries
 ---------------------------------------*/
 
-/*--------------------------------------------------iPad Pro*/
+/*--------------------------------------------------iPad Pro specific*/
 
 @media only screen and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1.5) {
     /*--Contact page image--*/
@@ -416,6 +416,12 @@ Media Queries
         min-height: 332px;
     }
 
+    /*--Home page contact link--*/
+    
+    #home-contact-btn a{
+            padding: 12px 50px;
+        }
+
     /*--Ensemble page images--*/
 
     .scb-image,
@@ -434,6 +440,11 @@ Media Queries
 /*--------------------------------------------------iPad*/
 
 @media (min-width: 720px) and (max-width: 800px) {
+    /*--Home page padding--*/
+    .burger-menu{
+        margin-right: 40px;
+    }
+
     /*--Home page padding--*/
 
     #home-style {
@@ -467,9 +478,9 @@ Media Queries
 
 /*--------------------------------------------------Mobiles*/
 
+/*--------------------------------------------------Most mobile phones*/
 @media (min-width: 320px) and  (max-width: 720px) {
     /*--Header--*/
-
     #logo {
         font-family: "Raleway", sans-serif;
         font-size: 2.5rem;
@@ -506,8 +517,10 @@ Media Queries
         overflow: scroll;
     }
 
+    /*--Homepage hero image--*/
     .hero-home {
         height: 100vh;
+        background-position-x: -170px;
     }
 
     /*--Home page about text and download btn--*/
@@ -532,6 +545,7 @@ Media Queries
 
     .home-spacing{
         margin: 16px 0px;
+        padding: 0 4px;
     }
 
     /*--Home page reviews--*/
@@ -559,7 +573,7 @@ Media Queries
     }
 
     #home-contact-btn a{
-        padding: 12px 30px;
+        padding: 12px 40px;
         font-size: 18px;
     }
 
@@ -636,9 +650,18 @@ Media Queries
     }
 }
 
+/*--------------------------------------------------Pixel 2/2XL iPhone 6+ specific*/
+
+@media (min-width: 400px) and  (max-width: 720px) {
+    /*--Home page contact link--*/
+    #home-contact-btn a{
+        padding: 12px 60px!important;
+    }
+}
+
 /*--------------------------------------------------iPhone 5/SE specific*/
 
-@media (max-width: 320px) {
+@media (min-width: 300px) and (max-width: 320px) {
     /*--Header--*/
     #logo{
         margin-left: 20px;
@@ -657,6 +680,7 @@ Media Queries
     .home-spacing,
     #download-btn {
         margin: 16px 0;
+        padding: 0 4px;
     }
 
 
@@ -666,10 +690,35 @@ Media Queries
         padding: 12px 0px;
     }
 
-    /*--Contact link--*/
+    /*--Home page Contact link--*/
     #home-contact-btn a{
         padding: 12px 20px;
+    }  
+}
+
+@media (min-width: 240px) and (max-width: 300px) {
+
+    /*--Header--*/
+    #logo{
+        font-size: 2rem;
     }
 
-    
+    /*--Home page Contact link--*/
+    #home-contact-btn a{
+        padding: 12px 10px;
+    }  
+
+    .home-contact-container{
+        margin: 0 20px;
+    }
+
+    /*--Footer--*/
+    #social-icons i{
+        font-size: 2rem;
+    }
+
+    #copyright-info,
+    #copyright-info span{
+        text-align: center;
+    }
 }
