@@ -477,10 +477,18 @@ Media Queries
         color: #333;
     }
 
+    .burger-menu{
+        margin-left: 40px;
+    }
+
     /*--Footer--*/
 
     #social-icons {
         padding-top: 20px;
+    }
+
+    #social-icons i{
+        font-size: 2rem;
     }
 
     #copyright-info,
@@ -489,6 +497,10 @@ Media Queries
     }
 
     /*--Homepage body--*/
+
+    #home-style {
+    padding: 128px 40px 0px;
+    }
 
     .container-fluid {
         overflow: scroll;
@@ -501,18 +513,34 @@ Media Queries
     /*--Home page about text and download btn--*/
 
     #about-text {
-        padding: 21px 0px;
+        padding: 16px 0px;
         font-size: 20px;
     }
 
+    #about-text h4{
+        font-size: 18px;
+    }
+
     #download-btn {
-        margin: 25px 0px;
+        margin: 16px 0px;
+    }
+
+    #download-btn a{
+        font-size: 16px;
+    }
+
+    .home-spacing{
+        margin: 16px 0px;
     }
 
     /*--Home page reviews--*/
 
+    #home-reviews p{
+        font-size: 16px;
+    }
+
     .mobile-review {
-        margin: 32px 0px 0px 0px;
+        margin: 32px 0px 0px;
     }
 
     .mobile-review-end {
@@ -521,6 +549,20 @@ Media Queries
 
     .desktop-review {
         display: none;
+    }
+
+    /*--Home page contact link--*/
+
+    #home-contact-btn{
+        margin: 24px 0;
+    }
+
+    #home-contact-btn a{
+        font-size: 16px;
+    }
+
+    .home-contact-container{
+        margin: 0 40px;
     }
 
     /*--Ensembles page images--*/
