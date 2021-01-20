@@ -85,15 +85,15 @@ Please note the navigation menu featured in the wireframe reflects additional pa
 
 **HOME PAGE**
 
-![HOME](assets/images/wireframe-home.png "Home page")
+![HOME](assets/wireframes/wireframe-home.png "Home page")
 
 **ENSEMBLES AND PROJECTS PAGE**
 
-![ENSEMBLES AND PROJECTS](assets/images/wireframe-ensembles.png "Ensembles and Projects page")
+![ENSEMBLES AND PROJECTS](assets/wireframes/wireframe-ensembles.png "Ensembles and Projects page")
 
 **CONTACT PAGE**
 
-![CONTACT](assets/images/wireframe-contact.png "Contact page")
+![CONTACT](assets/wireframes/wireframe-contact.png "Contact page")
 
 ## FEATURES ##
 
