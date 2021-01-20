@@ -77,7 +77,7 @@ Buttons
 
 #download-btn,
 #home-contact-btn {
-    margin: 25px;
+    margin: 24px;
     padding: 10px 16px;
     text-align: center;
     background-color: rgba(76, 17, 48, 0.8);
@@ -90,9 +90,9 @@ Buttons
 
 #download-btn a,
 #home-contact-btn a {
-    padding: 11px;
+    padding: 12px;
     font-family: "Poppins", sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 300;
     color: #f5f5f5;
     text-decoration: none;
@@ -101,10 +101,6 @@ Buttons
 .hvr-sweep-to-bottom:before {
     background: #4c1130;
     border-radius: 20px;
-}
-
-.contact-btn-home-spacing {
-    margin: 29px 0px 20px 0px;
 }
 
 /*--Ensemble page buttons--*/
@@ -176,7 +172,8 @@ Header
 /*--Logo--*/
 
 #logo {
-    margin-left: 8px;
+    margin-left: 40px;
+    padding: 6px 0px;
     font-family: "Raleway", sans-serif;
     font-size: 3rem;
     font-weight: 200;
@@ -258,12 +255,12 @@ Home page
 ---------------------------------------*/
 
 #home-style {
-    padding-top: 162px;
+    padding: 162px 40px;
     text-align: center;
 }
 
 .home-spacing {
-    margin: 32px 8px 32px 8px;
+    margin: 32px 0;
 }
 
 /*--Home page text--*/
@@ -271,7 +268,7 @@ Home page
 #about-text,
 #home-reviews p {
     min-height: 260px;
-    padding: 21px;
+    padding: 22px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
