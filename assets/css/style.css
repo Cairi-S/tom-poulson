@@ -467,7 +467,7 @@ Media Queries
 
 /*--------------------------------------------------Mobiles*/
 
-@media (max-width: 720px) {
+@media (min-width: 320px) and  (max-width: 720px) {
     /*--Header--*/
 
     #logo {
@@ -526,7 +526,8 @@ Media Queries
     }
 
     #download-btn a{
-        font-size: 16px;
+        padding: 12px 0;
+        font-size: 18px;
     }
 
     .home-spacing{
@@ -558,7 +559,8 @@ Media Queries
     }
 
     #home-contact-btn a{
-        font-size: 16px;
+        padding: 12px 30px;
+        font-size: 18px;
     }
 
     .home-contact-container{
@@ -632,4 +634,42 @@ Media Queries
     #contact-heading {
         border-radius: 10px;
     }
+}
+
+/*--------------------------------------------------iPhone 5/SE specific*/
+
+@media (max-width: 320px) {
+    /*--Header--*/
+    #logo{
+        margin-left: 20px;
+    }
+
+    .burger-menu{
+        margin-left: 20px;
+    }
+
+    
+    /*--Home page body--*/
+    #home-style{
+        padding: 114px 20px 0;
+    }
+
+    .home-spacing,
+    #download-btn {
+        margin: 16px 0;
+    }
+
+
+    /*--Download link--*/
+    #download-btn a{
+        margin: 16px 0px;
+        padding: 12px 0px;
+    }
+
+    /*--Contact link--*/
+    #home-contact-btn a{
+        padding: 12px 20px;
+    }
+
+    
 }
