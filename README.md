@@ -379,6 +379,10 @@ In addition to Google Google Chromes [DevTools](https://developers.google.com/we
 
 **BUGS**
 
+- Jump/flicker on hover of menu items.
+
+Solution: remove extra padding on menu hover.
+
 - White band at the bottom of mobile devices on Ensemble page.  
 
 Solution: changing the chosen images from landscape images to portrait images.  Changing position of contact button on this page between desktop and mobile devices.
