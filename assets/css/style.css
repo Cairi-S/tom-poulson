@@ -508,7 +508,7 @@ Media Queries
 
     #copyright-info,
     #copyright-info span {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     /*--Homepage body--*/
@@ -677,6 +677,14 @@ Media Queries
     #home-contact-btn a{
         padding: 12px 60px!important;
     }
+
+    .contact-form{
+        margin-top: 118px;
+    }
+
+    #contact-heading{
+        padding: 0 10px;
+    }
 }
 
 /*--------------------------------------------------iPhone 5/SE specific*/
@@ -713,7 +721,18 @@ Media Queries
     /*--Home page Contact link--*/
     #home-contact-btn a{
         padding: 12px 20px;
-    }  
+    } 
+
+    .contact-form{
+        margin-top: 88px;
+        padding: 20px 16px;
+    }
+
+    #contact-heading{
+        font-size: 18px;
+    }
+
+
 }
 
 @media (min-width: 240px) and (max-width: 300px) {
