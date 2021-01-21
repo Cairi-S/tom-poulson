@@ -760,6 +760,8 @@ Media Queries
     }
 }
 
+/*--------------------------------------------------Smallest device specific*/
+
 @media (min-width: 240px) and (max-width: 300px) {
 
     /*--Header--*/
@@ -784,5 +786,18 @@ Media Queries
     #copyright-info,
     #copyright-info span{
         text-align: center;
+    }
+
+    #contact-img{
+        background-position-y: 0px;
+        background-position-x: -230px;
+    }
+
+    .contact-form{
+        margin-top: 112px;
+    }
+
+    .contact-submit-btn{
+        margin: 24px 0;
     }
 }
