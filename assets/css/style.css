@@ -39,7 +39,7 @@ Images
     margin: 0;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position-y: -310px;
+    background-position-y: -380px;
 }
 
 /*---------------------------------------
@@ -133,15 +133,14 @@ Buttons
 /*--Contact page buttons--*/
 
 button[type="submit"] {
-    margin: 24px;
-    padding: 10px 12px;
     text-align: center;
     background-color: rgba(76, 17, 48, 0.8);
     border-radius: 20px;
 }
 
 .contact-submit-btn {
-    padding: 12px 0;
+    margin: 24px;
+    padding: 10px 12px;
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-weight: 300;
@@ -361,6 +360,12 @@ Contact page
     border-radius: 10px;
 }
 
+ .form-labels{
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        color: #333;
+    }
+
 #contact-details input {
     margin: 6px 0px 6px 0px;
 }
@@ -503,7 +508,7 @@ Media Queries
 
     #copyright-info,
     #copyright-info span {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 
     /*--Homepage body--*/
@@ -639,17 +644,29 @@ Media Queries
 
     #contact-img {
         background-position: center;
-        height: 150vh;
+        height: 100%;
     }
 
     /*--Contact page text--*/
 
     .contact-form{
         margin: 228px 0 40px;
+        max-width: 94%;
     }
-    
+
     #contact-heading {
-        border-radius: 10px;
+        font-size: 20px;
+    }
+
+    .form-labels{
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        color: #333;
+    }
+
+    .contact-submit-btn{
+        padding: 10px 8px;
+        font-size: 18px;
     }
 }
 
