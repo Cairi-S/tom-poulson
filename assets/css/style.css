@@ -647,7 +647,7 @@ Media Queries
         height: 100%;
     }
 
-    /*--Contact page text--*/
+    /*--Contact page form--*/
 
     .contact-form{
         margin: 228px 0 40px;
@@ -664,6 +664,8 @@ Media Queries
         color: #333;
     }
 
+    /*--Contact page button--*/
+
     .contact-submit-btn{
         padding: 10px 8px;
         font-size: 18px;
@@ -677,6 +679,8 @@ Media Queries
     #home-contact-btn a{
         padding: 12px 60px!important;
     }
+
+    /*--Contact page form--*/
 
     .contact-form{
         margin-top: 118px;
@@ -723,6 +727,8 @@ Media Queries
         padding: 12px 20px;
     } 
 
+    /*--Contact page form--*/
+    
     .contact-form{
         margin-top: 88px;
         padding: 20px 16px;
@@ -732,7 +738,12 @@ Media Queries
         font-size: 18px;
     }
 
+    /*--Contact page button--*/
 
+    .contact-submit-btn{
+        margin: 24px 12px;
+        padding: 10px 4px 10px 6px;
+    }
 }
 
 @media (min-width: 240px) and (max-width: 300px) {
