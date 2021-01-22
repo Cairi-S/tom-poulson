@@ -35,9 +35,19 @@ Images
     background-position-y: -92px;
 }
 
+.tlp-image{
+    background-image: url(../images/tlp-project.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 84vh;
+    background-position-y: -210px;
+}
+
 
 /*
-.tlp-image,
+,
 .wb-image {
     height: 234vh;
     -o-object-fit: cover;
@@ -647,6 +657,11 @@ Media Queries
         width: 100vw;
         height: 100vh;
         background-position-y: 0;
+    }
+
+    .tlp-image{
+        height: 100vh;
+        background-position-y: 0px;
     }
 
     /*--Ensembles page carousel captions--*/
