@@ -462,14 +462,19 @@ Media Queries
         background-position-y: 0px;
     }
 
+    .tlp-image{
+        background-position-y: 0px;
+    }
+    
+    .wb-image {
+        height: 100vh;
+    }
+
     .ensemb-contact-btn{
         padding: 10px 12px;
     }
 
-    .tlp-image,
-    .wb-image {
-        height: 100vh;
-    }
+    
 
     /*--Contact page image--*/
 
@@ -516,7 +521,11 @@ Media Queries
         background-position-y: 0px;
     }
 
-    .tlp-image,
+    .tlp-image{
+        background-position-y: 0px;
+    }
+    
+    
     .wb-image {
         height: 100vh;
     }
@@ -801,6 +810,11 @@ Media Queries
     .scb-mobile{
         height: 130vh;
         background-position-x: -94px;
+        background-position-y: 0px;
+    }
+
+    .tlp-image{
+        height: 130vh;
         background-position-y: 0px;
     }
 
