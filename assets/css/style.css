@@ -24,13 +24,26 @@ Images
 
 /*--Ensembles image--*/
 
-.scb-image,
+.scb-ensemble-desktop{
+    background-image: url(../images/scb-brassquintet-desktop.jpg);
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 84vh;
+    background-position-y: -92px;
+}
+
+
+/*
 .tlp-image,
 .wb-image {
     height: 234vh;
     -o-object-fit: cover;
     object-fit: cover;
 }
+*/
 
 /*--Contact page image--*/
 
@@ -428,7 +441,6 @@ Media Queries
 
     /*--Ensemble page images--*/
 
-    .scb-image,
     .tlp-image,
     .wb-image {
         height: 100vh;
@@ -474,7 +486,6 @@ Media Queries
 
     /*--Ensemble page images--*/
 
-    .scb-image,
     .tlp-image,
     .wb-image {
         height: 100vh;
@@ -601,10 +612,16 @@ Media Queries
 
     /*--Ensembles page images--*/
 
-    .scb-image,
-    .tlp-image,
-    .wb-image {
+    .scb-ensemble-desktop{
+        display: none;
+    }
+    
+    .scb-mobile{
+        background-image: url(../images/scb-mobile.jpg);
+        display: initial;
+        width: 100vw;
         height: 100vh;
+        background-position-y: 0;
     }
 
     /*--Ensembles page carousel captions--*/
@@ -612,6 +629,7 @@ Media Queries
     .desktop-scb-description {
         display: none;
     }
+    
  
     /*--Ensembles page captions background--*/
 
