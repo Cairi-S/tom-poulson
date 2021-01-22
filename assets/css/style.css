@@ -97,7 +97,7 @@ Buttons
     border-radius: 20px;
 }
 #download-btn i,
-#home-contact-btn i {
+#home-contact-btn i{
     color: #f5f5f5;
 }
 
@@ -135,10 +135,17 @@ Buttons
     text-decoration: none;
 }
 
+/*--Carousel controls--*/
+
+.carousel-control-next, 
+.carousel-control-prev {
+   opacity: 1;
+}
+
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
     background-color: #4c1130;
     border-radius: 50%;
 }
@@ -440,6 +447,14 @@ Media Queries
         }
 
     /*--Ensemble page images--*/
+    .scb-ensemble-desktop{
+        background-position-x: -621px;
+        background-position-y: 0px;
+    }
+
+    .ensemb-contact-btn{
+        padding: 10px 12px;
+    }
 
     .tlp-image,
     .wb-image {
@@ -486,10 +501,17 @@ Media Queries
 
     /*--Ensemble page images--*/
 
+    .scb-ensemble-desktop{
+        background-position-x: -476px; 
+        background-position-y: 0px;
+    }
+
     .tlp-image,
     .wb-image {
         height: 100vh;
     }
+
+    
 
     /*--Contact page image--*/
 
@@ -603,7 +625,10 @@ Media Queries
 
     #home-contact-btn a{
         padding: 12px 40px;
+        font-family: 'Poppins', sans-serif;
         font-size: 18px;
+        color: #f5f5f5;
+        text-decoration: none;
     }
 
     .home-contact-container{
@@ -655,22 +680,14 @@ Media Queries
     /*--Ensembles page contact button--*/
 
     .ensemb-contact-btn {
-        margin: 0;
-        padding: 32px 0px 32px 0px;
-        background-color: #f5f5f5;
+        margin: 24px 0;
+        padding: 12px 28px;
     }
 
     .ensemb-contact-btn a {
         font-size: 18px;
     }
 
-    .mobile-ensemb-contact-btn {
-        display: initial;
-    }
-
-    .desktop-ensemb-contact-btn {
-        display: none;
-    }
 
     /*--Contact page image--*/
 
@@ -711,6 +728,13 @@ Media Queries
     #home-contact-btn a{
         padding: 12px 60px!important;
     }
+
+    /*--Ensembles page contact links--*/    
+
+    .ensemb-contact-btn {
+    margin: 24px 0;
+    padding: 12px 42px;
+}
 
     /*--Contact page form--*/
 
@@ -758,6 +782,16 @@ Media Queries
     #home-contact-btn a{
         padding: 12px 20px;
     } 
+
+    .scb-mobile{
+        height: 130vh;
+        background-position-x: -94px;
+        background-position-y: 0px;
+    }
+
+    .ensemb-contact-btn{
+        padding: 12px 8px;
+    }
 
     /*--Contact page form--*/
     
