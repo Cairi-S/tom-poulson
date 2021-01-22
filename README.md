@@ -4,9 +4,9 @@
 
 ### [Link to live website](http://cairi-s.github.io/tom-poulson) ###
 
-![MOCKUP OF WEBSITE](assets/wireframes/tompoulson-mockup.png "Mockup of the website of Tom Poulson")
-
 This is a full website for classical/contemporary trumpeter, Tom Poulson.  Tom is from England but currently lives in Stockholm, Sweden, and is active around the world.
+
+![MOCKUP OF WEBSITE](assets/wireframes/tompoulson-mockup.png "Mockup of the website of Tom Poulson")
 
 The website will feature promotional images of both solo and ensemble performances, reviews of concerts, links to external webpages of his groups and projects and a contact page to lead potential collaborators to make contact with Tom.
 
@@ -63,9 +63,9 @@ Potential Collaborator Goals:
 **COLOR SCHEME**
 
 The three main colours I am proposing are:
-- Off white - reflects the refined style expected from a classical musician.
-- Dark gray  - reflects the refined style expected from a classical musician.
-- Maroon - adds a splash of color and ties in with a color on the home page hero image.
+- Off white (HEX #f5f5f5) - reflects the refined style expected from a classical musician.
+- Dark gray (HEX #333)  - reflects the refined style expected from a classical musician.
+- Maroon (HEX #4C1130) - adds a splash of color and ties in with a color on the home page hero image.
 
 **FONTS**
 
@@ -193,7 +193,8 @@ The creation of this website would not have been possible without:
 - [Google Fonts](https://fonts.google.com/) -  used for fonts styles, namely Poppins and Raleway.
 - [Font Awesome](https://fontawesome.com/) - used for icons, namely the Download icon on the home page.
 - [Hover.css](https://ianlunn.github.io/Hover/) - used for hover effect on download and contact links.
-- [cdnjs.com](https://cdnjs.com/) - used to deliver hover functionality on links
+- [cdnjs.com](https://cdnjs.com/) - used to deliver hover functionality on links.
+- [Multi Device Website Mockup Generator](http://techsini.com/multi-mockup/index.php) - used for website mockup at top of README. 
 - [Color Tool](https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=560027&secondary.color=E0E0E0) - used to select complimentary colors for the website design.
 - [Tinypng](https://tinypng.com/) - used to reduce the file size of all images.
 - [Online-Convert.com](https://image.online-convert.com/convert-to-jpg) - used for converting jpeg to jpg files.
