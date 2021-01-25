@@ -112,7 +112,7 @@ The **home and contact pages** will feature different Hero images aimed to showc
 
 The **Hero image** will be static with a text box featuring a mini biography on the right, within this text box the user be prompted to **download full biography** via a button. Three seperate **reviews** of recent performances will be featured above the footer. On mobile phones the Hero image will be static while the text scrolls over the image. 
 
-The **download button** will feature a download icon and **open to a PDF in a new tab**.
+The **download link** will feature a download icon and **open to a PDF in a new tab**.
 
 On **iPad and mobile devices** only the two more prestigious reviews will be featured to reduce scroll time and stop the potential for information overload.
 
@@ -163,7 +163,7 @@ The page concludes with a **submit button**.
 
 **Home Page** - Gives potential collaborators an initial 'hit' of knowledge about the musician without overloading them with information.  
 
-**Download button** - Users are provided the opportunity to learn more about the musician via a download button linking to a pdf of the musicians full biography.
+**Download link** - Users are provided the opportunity to learn more about the musician via a download link linking to a pdf of the musicians full biography.
 
 **Ensembles and Projects page** -  Users are able to learn more about the groups and projects that the musician is a part of to discover whether the musician would make a suitable partner for a collaboration.
 
@@ -218,7 +218,7 @@ Home > Ensembles and Projects > Contact
 
 Each of these pages has a natural progression to the next. Should the user get to the bottom of the page and decide they wish to make contact with the musician each page features an easily identifiable button which links directly to the contact page so they do not have to scroll back to the top.
 
-To reduce information overload on the Home page, the information about the musician has been reduced to an exciting headline.  The user is able to learn more by downloading a full Biography using the easy to idetify Download button which opens in a seperate tab.
+To reduce information overload on the Home page, the information about the musician has been reduced to an exciting headline.  The user is able to learn more by downloading a full Biography using the easy to idetify Download link which opens in a seperate tab.
 
 The Ensembles and Projects page features links to the external websites of each group or project which open in a seperate tab.  The text chosen for each group is designed to display the standard and flexibility of range that the musician has without detracting from them as a soloist.  The text and external links aim to entice the user to read more.  
 
@@ -283,9 +283,9 @@ HOME PAGE
 - Reduce and expand width of window to confirm that the text in this section responds correctly and looks good on all device widths.
 - Check the text for spelling and grammar errors.
 
-*Download Button*
+*Download link*
 
-- Hover over the download button to ensure that the text changes from sentence case to uppercase and becomes underlined.
+- Hover over the download link to ensure that the text changes from sentence case to uppercase and becomes underlined.
 - Click the button on both desktop and mobile devices and check that the PDF download opens in a new window.
 
 *Reviews*
@@ -373,12 +373,12 @@ Each page was tested using [Google DevTools](https://developers.google.com/web/t
     * Xiaomi Mi 10T Lite 
 
 - Reported bugs/glitches included:
-    * Mobile phones - a lag on the scroll on the home page.  Noone reported this greatly impacted the use of the website and some reported they were only aware of it after it had been brought to their attention.  No action has been taken to rectify this as no user reported that this negatively affected their usage/enjoyment of the website.
+    * Mobile phones - a lag on the scroll on the home page.  Noone reported this greatly impacted the use of the website and some reported they were only aware of it after it had been brought to their attention.  No action has been taken to rectify this as no user reported that this negatively affected their usage/enjoyment of the website.  It is something that will be fixed in future website updates.
     * Ensembles and Carousels page - some users reported the text was difficult to read on on the Stockholm Chamber Brass page. To rectify this the opacity of the text container was increased from 0.75 to 0.8.
 
 ADDITIONAL TESTING
 
-In addition to Google Google Chromes [DevTools](https://developers.google.com/web/tools/chrome-devtools) I used the [Lighthouse](https://developers.google.com/web/tools/lighthouse) feature to check the capabilities of the website.  At present all desktop scores are above 90 and mobile scores are above **Y** with the aim of improving upon these over time. 
+In addition to Google Google Chromes [DevTools](https://developers.google.com/web/tools/chrome-devtools) I used the [Lighthouse](https://developers.google.com/web/tools/lighthouse) feature to check the capabilities of the website.  At present all desktop scores are high with the aim of improving upon these over time. 
 
 **BUGS**
 
@@ -388,7 +388,7 @@ Solution: remove extra padding on menu hover.
 
 - White band at the bottom of mobile devices on Ensemble page.  
 
-Solution: changing the chosen images from landscape images to portrait images.  Changing position of contact button on this page between desktop and mobile devices.
+Solution: changing the chosen images from landscape images to portrait images.  Changing position of contact link on this page between desktop and mobile devices.
 
 - Form submit button not taking you to validation page:
 
