@@ -470,11 +470,21 @@ Media Queries
         background-position-y: 0px;
     }
 
+    /*--Ensemble page text--*/
+
+    .ensemb-carousel p{
+        font-size: 18px;
+    }
+
     .ensemb-contact-btn{
+        margin: 24px 0 0;
         padding: 10px 12px;
     }
 
-    
+    .ensemb-contact-btn a{
+        font-size: 18px;
+    }
+
 
     /*--Contact page image--*/
 
@@ -530,7 +540,17 @@ Media Queries
         background-position-y: 0px;
     }
 
-    
+    .ensemb-carousel p{
+        font-size: 18px;
+    }
+
+    .ensemb-contact-btn{
+        margin: 24px 0 0;
+    }
+
+    .ensemb-contact-btn a{
+        font-size: 18px;
+    }
 
     /*--Contact page image--*/
 
@@ -549,7 +569,7 @@ Media Queries
 /*--------------------------------------------------Mobiles*/
 
 /*--------------------------------------------------Most mobile phones*/
-@media (min-width: 320px) and  (max-width: 720px) {
+@media (orientation: portrait) and (min-width: 320px) and  (max-width: 720px) {
     /*--Header--*/
     #logo {
         font-family: "Raleway", sans-serif;
@@ -716,12 +736,12 @@ Media Queries
     /*--Ensembles page contact button--*/
 
     .ensemb-contact-btn {
-        margin: 24px 0;
+        margin: 24px 0 0;
         padding: 12px 28px;
     }
 
     .ensemb-contact-btn a {
-        font-size: 18px;
+        font-size: 16px;
     }
 
 
