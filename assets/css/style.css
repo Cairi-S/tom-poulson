@@ -540,6 +540,8 @@ Media Queries
         background-position-y: 0px;
     }
 
+    /*--Ensemble page text--*/
+
     .ensemb-carousel p{
         font-size: 18px;
     }
@@ -917,4 +919,62 @@ Media Queries
     .contact-submit-btn{
         margin: 24px 0;
     }
+}
+
+/*--------------------------------------------------Landscape on iPad and mobiles*/
+
+@media (orientation: landscape) and (min-width: 1024px) and  (max-width:1366px){
+    /*--Ensembles image--*/
+    .scb-ensemble-desktop, 
+    .tlp-image,
+    .wb-desktop {
+        background-position-x: 0;
+        background-position-y: 0;
+    }
+
+    /*--Contact form--*/
+    .contact-form{
+        margin: 154px 0px 40px;
+    }
+
+}
+
+@media (orientation: landscape) and (min-width: 320px) and  (max-width:840px) {
+    /*--Ensembles image--*/
+    .scb-mobile{
+            background-image: url(../images/scb-mobile.jpg);
+            display: initial;
+            width: 100vw;
+            height: 198vh;
+            background-position-x: 0;
+            background-position-y: 0;
+        }
+
+        .tlp-image{
+            height: 198vh;
+            background-position-x: 0;
+            background-position-y: 0px;
+        }
+
+        .wb-desktop{
+            display: none;
+        }
+
+        .wb-mobile{
+            background-image: url(../images/wb-mobile.jpg);
+            width: 100vw;
+            height: 198vh;
+            background-position-x: 0px;
+            background-position-y: 0;
+        }
+
+        /*--Contact image and form--*/
+        #contact-img{
+            height: 214vh;
+            background-position-y: 0;
+        }
+
+        .contact-form{
+            margin-top: 148px;
+        }
 }
