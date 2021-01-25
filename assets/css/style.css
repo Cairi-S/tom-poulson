@@ -679,7 +679,6 @@ Media Queries
 
     .wb-mobile{
         background-image: url(../images/wb-mobile.jpg);
-        display: initial;
         width: 100vw;
         height: 100vh;
         background-position-x: -44px;
