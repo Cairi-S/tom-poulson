@@ -31,7 +31,7 @@ Images
 
 /*--Ensembles image - desktop.  NB tlp-image covers both mobile and desktop --*/
 
-.scb-ensemble-desktop{
+.scb-ensemble-desktop {
     background-image: url(../images/scb-brassquintet-desktop.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -41,7 +41,7 @@ Images
     background-position-y: -92px;
 }
 
-.tlp-image{
+.tlp-image {
     background-image: url(../images/tlp-project.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -50,7 +50,6 @@ Images
     height: 84vh;
     background-position-y: -210px;
 }
-
 
 .wb-desktop {
     background-image: url(../images/wb-desktop.jpg);
@@ -114,7 +113,7 @@ Buttons
     border-radius: 20px;
 }
 #download-btn i,
-#home-contact-btn i{
+#home-contact-btn i {
     color: #f5f5f5;
 }
 
@@ -148,15 +147,15 @@ Buttons
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-weight: 300;
-    color: #f5f5f5!important;
+    color: #f5f5f5 !important;
     text-decoration: none;
 }
 
 /*--Carousel controls--*/
 
-.carousel-control-next, 
+.carousel-control-next,
 .carousel-control-prev {
-   opacity: 1;
+    opacity: 1;
 }
 
 .carousel-control-next-icon,
@@ -198,7 +197,7 @@ Hover.css styling for buttons
 Header
 ---------------------------------------*/
 
-.navbar-light{
+.navbar-light {
     background-color: #f5f5f5;
 }
 
@@ -327,7 +326,7 @@ Home page
     font-weight: 200;
 }
 
-.review-spacing{
+.review-spacing {
     margin: 32px 4px;
 }
 
@@ -396,11 +395,11 @@ Contact page
     border-radius: 10px;
 }
 
- .form-labels{
-        font-family: "Poppins", sans-serif;
-        font-size: 18px;
-        color: #333;
-    }
+.form-labels {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    color: #333;
+}
 
 #contact-details input {
     margin: 6px 0px 6px 0px;
@@ -452,23 +451,23 @@ Media Queries
 
     /*--Home page review textbox--*/
 
-    #home-reviews p{
+    #home-reviews p {
         min-height: 332px;
     }
 
     /*--Home page contact link--*/
-    
-    #home-contact-btn a{
-            padding: 12px 50px;
-        }
+
+    #home-contact-btn a {
+        padding: 12px 50px;
+    }
 
     /*--Ensemble page images--*/
-    .scb-ensemble-desktop{
+    .scb-ensemble-desktop {
         background-position-x: -621px;
         background-position-y: 0px;
     }
 
-    .tlp-image{
+    .tlp-image {
         background-position-y: 0px;
     }
 
@@ -478,19 +477,18 @@ Media Queries
 
     /*--Ensemble page text--*/
 
-    .ensemb-carousel p{
+    .ensemb-carousel p {
         font-size: 18px;
     }
 
-    .ensemb-contact-btn{
+    .ensemb-contact-btn {
         margin: 24px 0 0;
         padding: 10px 12px;
     }
 
-    .ensemb-contact-btn a{
+    .ensemb-contact-btn a {
         font-size: 18px;
     }
-
 
     /*--Contact page image--*/
 
@@ -501,7 +499,7 @@ Media Queries
 
     /*--Contact page button--*/
 
-    .contact-submit-btn{
+    .contact-submit-btn {
         margin: 24px 0;
     }
 }
@@ -510,7 +508,7 @@ Media Queries
 
 @media (min-width: 720px) and (max-width: 800px) {
     /*--Home page padding--*/
-    .burger-menu{
+    .burger-menu {
         margin-right: 40px;
     }
 
@@ -532,31 +530,30 @@ Media Queries
 
     /*--Ensemble page images--*/
 
-    .scb-ensemble-desktop{
-        background-position-x: -476px; 
+    .scb-ensemble-desktop {
+        background-position-x: -476px;
         background-position-y: 0px;
     }
 
-    .tlp-image{
+    .tlp-image {
         background-position-y: 0px;
     }
-    
-    
+
     .wb-mobile {
         background-position-y: 0px;
     }
 
     /*--Ensemble page text--*/
 
-    .ensemb-carousel p{
+    .ensemb-carousel p {
         font-size: 18px;
     }
 
-    .ensemb-contact-btn{
+    .ensemb-contact-btn {
         margin: 24px 0 0;
     }
 
-    .ensemb-contact-btn a{
+    .ensemb-contact-btn a {
         font-size: 18px;
     }
 
@@ -569,7 +566,7 @@ Media Queries
 
     /*--Contact page button--*/
 
-    .contact-submit-btn{
+    .contact-submit-btn {
         margin: 24px 0;
     }
 }
@@ -577,7 +574,7 @@ Media Queries
 /*--------------------------------------------------Mobiles*/
 
 /*--------------------------------------------------Most mobile phones*/
-@media (orientation: portrait) and (min-width: 320px) and  (max-width: 720px) {
+@media (orientation: portrait) and (min-width: 320px) and (max-width: 720px) {
     /*--Header--*/
     #logo {
         font-family: "Raleway", sans-serif;
@@ -586,7 +583,7 @@ Media Queries
         color: #333;
     }
 
-    .burger-menu{
+    .burger-menu {
         margin-left: 40px;
     }
 
@@ -596,7 +593,7 @@ Media Queries
         padding-top: 20px;
     }
 
-    #social-icons i{
+    #social-icons i {
         font-size: 2rem;
     }
 
@@ -608,7 +605,7 @@ Media Queries
     /*--Homepage body--*/
 
     #home-style {
-    padding: 128px 40px 0px;
+        padding: 128px 40px 0px;
     }
 
     .container-fluid {
@@ -628,7 +625,7 @@ Media Queries
         font-size: 20px;
     }
 
-    #about-text h4{
+    #about-text h4 {
         font-size: 18px;
     }
 
@@ -636,19 +633,19 @@ Media Queries
         margin: 16px 0px;
     }
 
-    #download-btn a{
+    #download-btn a {
         padding: 12px 0;
         font-size: 18px;
     }
 
-    .home-spacing{
+    .home-spacing {
         margin: 16px 0px;
         padding: 0 4px;
     }
 
     /*--Home page reviews--*/
 
-    #home-reviews p{
+    #home-reviews p {
         font-size: 16px;
     }
 
@@ -666,29 +663,29 @@ Media Queries
 
     /*--Home page contact link--*/
 
-    #home-contact-btn{
+    #home-contact-btn {
         margin: 24px 0;
     }
 
-    #home-contact-btn a{
+    #home-contact-btn a {
         padding: 12px 40px;
-        font-family: 'Poppins', sans-serif;
+        font-family: "Poppins", sans-serif;
         font-size: 18px;
         color: #f5f5f5;
         text-decoration: none;
     }
 
-    .home-contact-container{
+    .home-contact-container {
         margin: 0 40px;
     }
 
     /*--Ensembles page images--*/
 
-    .scb-ensemble-desktop{
+    .scb-ensemble-desktop {
         display: none;
     }
-    
-    .scb-mobile{
+
+    .scb-mobile {
         background-image: url(../images/scb-mobile.jpg);
         display: initial;
         width: 100vw;
@@ -696,16 +693,16 @@ Media Queries
         background-position-y: 0;
     }
 
-    .tlp-image{
+    .tlp-image {
         height: 100vh;
         background-position-y: 0px;
     }
 
-    .wb-desktop{
+    .wb-desktop {
         display: none;
     }
 
-    .wb-mobile{
+    .wb-mobile {
         background-image: url(../images/wb-mobile.jpg);
         width: 100vw;
         height: 100vh;
@@ -718,8 +715,7 @@ Media Queries
     .desktop-scb-description {
         display: none;
     }
-    
- 
+
     /*--Ensembles page captions background--*/
 
     .ensemb-carousel {
@@ -752,7 +748,6 @@ Media Queries
         font-size: 16px;
     }
 
-
     /*--Contact page image--*/
 
     #contact-img {
@@ -762,7 +757,7 @@ Media Queries
 
     /*--Contact page form--*/
 
-    .contact-form{
+    .contact-form {
         margin: 228px 0 40px;
         max-width: 94%;
     }
@@ -771,7 +766,7 @@ Media Queries
         font-size: 20px;
     }
 
-    .form-labels{
+    .form-labels {
         font-family: "Poppins", sans-serif;
         font-size: 16px;
         color: #333;
@@ -779,7 +774,7 @@ Media Queries
 
     /*--Contact page button--*/
 
-    .contact-submit-btn{
+    .contact-submit-btn {
         padding: 10px 8px;
         font-size: 18px;
     }
@@ -787,26 +782,26 @@ Media Queries
 
 /*--------------------------------------------------Pixel 2/2XL iPhone 6+ specific*/
 
-@media (min-width: 400px) and  (max-width: 720px) {
+@media (min-width: 400px) and (max-width: 720px) {
     /*--Home page contact link--*/
-    #home-contact-btn a{
-        padding: 12px 60px!important;
+    #home-contact-btn a {
+        padding: 12px 60px !important;
     }
 
-    /*--Ensembles page contact links--*/    
+    /*--Ensembles page contact links--*/
 
     .ensemb-contact-btn {
-    margin: 24px 0;
-    padding: 12px 42px;
-}
+        margin: 24px 0;
+        padding: 12px 42px;
+    }
 
     /*--Contact page form--*/
 
-    .contact-form{
+    .contact-form {
         margin-top: 118px;
     }
 
-    #contact-heading{
+    #contact-heading {
         padding: 0 10px;
     }
 }
@@ -815,17 +810,16 @@ Media Queries
 
 @media (min-width: 300px) and (max-width: 320px) {
     /*--Header--*/
-    #logo{
+    #logo {
         margin-left: 20px;
     }
 
-    .burger-menu{
+    .burger-menu {
         margin-left: 20px;
     }
 
-    
     /*--Home page body--*/
-    #home-style{
+    #home-style {
         padding: 114px 20px 0;
     }
 
@@ -835,51 +829,50 @@ Media Queries
         padding: 0 4px;
     }
 
-
     /*--Download link--*/
-    #download-btn a{
+    #download-btn a {
         margin: 16px 0px;
         padding: 12px 0px;
     }
 
     /*--Home page Contact link--*/
-    #home-contact-btn a{
+    #home-contact-btn a {
         padding: 12px 20px;
-    } 
+    }
 
-    .scb-mobile{
+    .scb-mobile {
         height: 130vh;
         background-position-x: -94px;
         background-position-y: 0px;
     }
 
-    .tlp-image{
+    .tlp-image {
         height: 130vh;
         background-position-y: 0px;
     }
 
-    .wb-mobile{
+    .wb-mobile {
         height: 130vh;
     }
 
-    .ensemb-contact-btn{
+    .ensemb-contact-btn {
         padding: 12px 8px;
     }
 
     /*--Contact page form--*/
-    
-    .contact-form{
+
+    .contact-form {
         margin-top: 88px;
         padding: 20px 16px;
     }
 
-    #contact-heading{
+    #contact-heading {
         font-size: 18px;
     }
 
     /*--Contact page button--*/
 
-    .contact-submit-btn{
+    .contact-submit-btn {
         margin: 24px 12px;
         padding: 10px 4px 10px 6px;
     }
@@ -888,50 +881,49 @@ Media Queries
 /*--------------------------------------------------Smallest device specific*/
 
 @media (min-width: 240px) and (max-width: 300px) {
-
     /*--Header--*/
-    #logo{
+    #logo {
         font-size: 2rem;
     }
 
     /*--Home page Contact link--*/
-    #home-contact-btn a{
+    #home-contact-btn a {
         padding: 12px 10px;
-    }  
+    }
 
-    .home-contact-container{
+    .home-contact-container {
         margin: 0 20px;
     }
 
     /*--Footer--*/
-    #social-icons i{
+    #social-icons i {
         font-size: 2rem;
     }
 
     #copyright-info,
-    #copyright-info span{
+    #copyright-info span {
         text-align: center;
     }
 
-    #contact-img{
+    #contact-img {
         background-position-y: 0px;
         background-position-x: -230px;
     }
 
-    .contact-form{
+    .contact-form {
         margin-top: 112px;
     }
 
-    .contact-submit-btn{
+    .contact-submit-btn {
         margin: 24px 0;
     }
 }
 
 /*--------------------------------------------------Landscape on iPad and mobiles*/
 
-@media (orientation: landscape) and (min-width: 1024px) and  (max-width:1366px){
+@media (orientation: landscape) and (min-width: 1024px) and (max-width: 1366px) {
     /*--Ensembles image--*/
-    .scb-ensemble-desktop, 
+    .scb-ensemble-desktop,
     .tlp-image,
     .wb-desktop {
         background-position-x: 0;
@@ -939,48 +931,47 @@ Media Queries
     }
 
     /*--Contact form--*/
-    .contact-form{
+    .contact-form {
         margin: 154px 0px 40px;
     }
-
 }
 
-@media (orientation: landscape) and (min-width: 320px) and  (max-width:840px) {
+@media (orientation: landscape) and (min-width: 320px) and (max-width: 840px) {
     /*--Ensembles image--*/
-    .scb-mobile{
-            background-image: url(../images/scb-mobile.jpg);
-            display: initial;
-            width: 100vw;
-            height: 198vh;
-            background-position-x: 0;
-            background-position-y: 0;
-        }
+    .scb-mobile {
+        background-image: url(../images/scb-mobile.jpg);
+        display: initial;
+        width: 100vw;
+        height: 198vh;
+        background-position-x: 0;
+        background-position-y: 0;
+    }
 
-        .tlp-image{
-            height: 198vh;
-            background-position-x: 0;
-            background-position-y: 0px;
-        }
+    .tlp-image {
+        height: 198vh;
+        background-position-x: 0;
+        background-position-y: 0px;
+    }
 
-        .wb-desktop{
-            display: none;
-        }
+    .wb-desktop {
+        display: none;
+    }
 
-        .wb-mobile{
-            background-image: url(../images/wb-mobile.jpg);
-            width: 100vw;
-            height: 198vh;
-            background-position-x: 0px;
-            background-position-y: 0;
-        }
+    .wb-mobile {
+        background-image: url(../images/wb-mobile.jpg);
+        width: 100vw;
+        height: 198vh;
+        background-position-x: 0px;
+        background-position-y: 0;
+    }
 
-        /*--Contact image and form--*/
-        #contact-img{
-            height: 214vh;
-            background-position-y: 0;
-        }
+    /*--Contact image and form--*/
+    #contact-img {
+        height: 214vh;
+        background-position-y: 0;
+    }
 
-        .contact-form{
-            margin-top: 148px;
-        }
+    .contact-form {
+        margin-top: 148px;
+    }
 }
