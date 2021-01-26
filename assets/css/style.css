@@ -99,8 +99,7 @@ Buttons
     background-color: rgba(76, 17, 48, 0.8);
     border-radius: 20px;
 }
-#download-link i,
-#home-contact-link i {
+#download-link i {
     color: #f5f5f5;
 }
 
@@ -471,6 +470,7 @@ Media Queries
     }
 
     .ensemb-contact-link a {
+        padding: 12px;
         font-size: 18px;
     }
 
@@ -729,6 +729,7 @@ Media Queries
     }
 
     .ensemb-contact-link a {
+        padding: 12px;
         font-size: 16px;
     }
 
