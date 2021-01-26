@@ -111,7 +111,7 @@ The **home and contact pages** will feature different Hero images aimed to showc
 
 **HOME**
 
-The **Hero image** will be static with a text box featuring a mini biography on the right, within this text box the user be prompted to **download full biography** via a button. Three seperate **reviews** of recent performances will be featured above the footer. On mobile phones the Hero image will be static while the text scrolls over the image. 
+The **Hero image** will be static with a text box featuring a mini biography on the right, within this text box the user be prompted to **download full biography** via a button. Three separate **reviews** of recent performances will be featured above the footer. On mobile phones the Hero image will be static while the text scrolls over the image. 
 
 The **download link** will feature a download icon and **open to a PDF in a new tab**.
 
@@ -130,7 +130,7 @@ Each ensemble or project mentioned will feature a **title**, a **description** o
 
 Each **title** will be a **link to an external website** which will **open in a new tab**.
 
-Photographs or images used will be promotional shots used by each group or project for cohesiveness should the user seperately search for that ensemble or project.
+Photographs or images used will be promotional shots used by each group or project for cohesiveness should the user separately search for that ensemble or project.
 
 There will also be a **call to action button** asking the user if they want to collaborate and directing users to the **contact page**.
 
@@ -156,9 +156,9 @@ The page concludes with a **submit button**.
 
 **Footer Copyright Information** - Appears on every page to protect the business copyright.
 
-**Footer Social Icons** - Appears on every page to guide the user toward the musician's social media profiles.  The icons will link to the relevant social media and open in a seperate tab.
+**Footer Social Icons** - Appears on every page to guide the user toward the musician's social media profiles.  The icons will link to the relevant social media and open in a separate tab.
 
-**Call to Action Buttons** - Appear on every page to encourage users to reach out to the musician, hopefully improving business opportunities.  The buttons will link to the Contact page and open in a seperate tab.
+**Call to Action Buttons** - Appear on every page to encourage users to reach out to the musician, hopefully improving business opportunities.  The buttons will link to the Contact page and open in a separate tab.
 
 **Images** - All images chosen are dynamic images with the aim of providing an emotional response.
 
@@ -219,9 +219,9 @@ Home > Ensembles and Projects > Contact
 
 Each of these pages has a natural progression to the next. Should the user get to the bottom of the page and decide they wish to make contact with the musician each page features an easily identifiable button which links directly to the contact page so they do not have to scroll back to the top.
 
-To reduce information overload on the Home page, the information about the musician has been reduced to an exciting headline.  The user is able to learn more by downloading a full Biography using the easy to idetify Download link which opens in a seperate tab.
+To reduce information overload on the Home page, the information about the musician has been reduced to an exciting headline.  The user is able to learn more by downloading a full Biography using the easy to idetify Download link which opens in a separate tab.
 
-The Ensembles and Projects page features links to the external websites of each group or project which open in a seperate tab.  The text chosen for each group is designed to display the standard and flexibility of range that the musician has without detracting from them as a soloist.  The text and external links aim to entice the user to read more.  
+The Ensembles and Projects page features links to the external websites of each group or project which open in a separate tab.  The text chosen for each group is designed to display the standard and flexibility of range that the musician has without detracting from them as a soloist.  The text and external links aim to entice the user to read more.  
 
 **TESTING CLIENT STORIES FROM UX SECTION**
 
@@ -248,7 +248,7 @@ Returning Visitor Goals:
 - As a Returning Visitor, I want to find up to date testimonials and reviews of the performers work.
     * The Home page has recent reviews of performances from reputable sources.  Over time these reviews will change to reflect more recent performance reviews.
 - As a Returning Visitor, I want to find links to ensembles and projects that the musician is a part of to see their range.
-    * The Ensembles and Projects page has clear promotional imagery of each group or project.  Each page links externally to that group/projects webpage - these open in a seperate tab.
+    * The Ensembles and Projects page has clear promotional imagery of each group or project.  Each page links externally to that group/projects webpage - these open in a separate tab.
 
 Potential Collaborator Goals:
 - As a Potential Collaborator, I want to be able to contact the musician quickly with any questions I have.
@@ -256,7 +256,7 @@ Potential Collaborator Goals:
 - As a Potential Collaborator I want to be able to find clear examples of the types of projects the musician participates in to know if they would be a suitable collaborator.
     * The Home page details the musicians capabilities as a soloist while the Ensembles and Projects page shows the different ensemble sizes that the musician is used to performing with (5 musicians and 10 musicians) as well as non-standard instrumentation (performances including choreography, acting and electronics).  Over time this page will be updated to include additional ensembles and projects to further showcase the musicians artistry.
 - As a Potential Collaborator, I want to find links to the musicians social media channels to check they are actively performing.
-    * The footer of every page includes links to the musicians active social media channels.  Each link opens in a seperate tab so the user does not need to navagate away from the website. 
+    * The footer of every page includes links to the musicians active social media channels.  Each link opens in a separate tab so the user does not need to navigate away from the website. 
 
 **MANUAL TESTING**
 
@@ -315,9 +315,9 @@ ENSEMBLES AND PROJECTS PAGE
 *Stockholm Chamber Brass page*
 
 - Check image covers the page and all group members are visible.
-- Click groups title and check it links to the Stockholm Chamber Brass external website in seperate tab.
+- Click groups title and check it links to the Stockholm Chamber Brass external website in separate tab.
 - Check text for spelling and grammar errors.
-- Click 'here' to check that this links to the Stockholm Chamber Brass Academy external website in a seperate tab.
+- Click 'here' to check that this links to the Stockholm Chamber Brass Academy external website in a separate tab.
 
 - Hover over the call to action button to ensure that the text changes from sentence case to uppercase and becomes underlined.
 - Click the call to action button and confirm that it links to the contact page.
