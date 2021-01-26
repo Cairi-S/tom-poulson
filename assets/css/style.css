@@ -77,6 +77,7 @@ Buttons
 .navbar-light .navbar-toggler {
     color: #4c1130;
     border-color: #4c1130;
+    background-color: #f5f5f5;
 }
 
 /*--Homepage links--*/
@@ -178,11 +179,6 @@ Hover.css styling for buttons
 /*---------------------------------------
 Header
 ---------------------------------------*/
-
-.navbar-light {
-    background-color: #f5f5f5;
-}
-
 /*--Logo--*/
 
 #logo {
