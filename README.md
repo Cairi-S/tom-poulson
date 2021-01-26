@@ -8,7 +8,7 @@ This is a full website for the classical/contemporary trumpeter, Tom Poulson.  T
 
 ![MOCKUP OF WEBSITE](assets/wireframes/tompoulson-mockup.png "Mockup of the website of Tom Poulson")
 
-The website will feature promotional images of both solo and ensemble performances, reviews of concerts, links to external webpages of his groups and projects and a contact page to encourage potential collaborators to make get in touch with Tom.
+The website will feature promotional images of both solo and ensemble performances, reviews of concerts, links to external webpages of his groups and projects and a contact page to encourage potential collaborators to get in touch with Tom.
 
 It is worth noting that, as a performer, this website is **aimed at both B2B and B2C clients**:
 - B2B are professional orchestras, music festivals and music conservatoires who may be looking for a performer or teacher.
@@ -16,10 +16,10 @@ It is worth noting that, as a performer, this website is **aimed at both B2B and
 
 With this in mind the website is designed to be **easily navigated, responsive and accessible** on a variety of different devices.
 
-The business goals of the website are:
-- To increase brand awareness.
-- To provide exceptional UX to encourage users to book the musician for performances.
-- Provide examples of the musicians range of work to showcase their versatility.
+The business goals of the website are to:
+- Increase brand awareness.
+- Provide exceptional UX to encourage users to book the musician for performances.
+- Provide examples of the musician's range of work to showcase their versatility.
 - Encourage users to make contact with the musician with all queries.
 
 Customers to this website may be looking to:
@@ -36,12 +36,12 @@ The customer goals are:
 Ideal client:
 - English speaking.
 - Is an individual looking for a musician for a private event.
-- Are an orchestra or music group looking to collaborate on a project.
-- Is an individual with a keen interest/knowledge in classical and contemporary music.
+- Is an orchestra or music group looking to collaborate on a project.
+- Is an individual with a keen interest/knowledge in classical and/or contemporary music.
 
 Why this project is important:
-- As classical musicians often work across multiple areas their websites can often quickly overload the user with too much information.
-- This website aims to break down the different areas the musician works within to clear, accessible areas so the user can quickly navigate to the section they are interested in whilst also encouraging them to continue browsing the website.
+- As classical musicians often work across multiple areas their websites can quickly overload the user with too much information.
+- This website aims to break down the different areas the musician works within, into clear accessible areas so that the user can quickly navigate to the section they are interested in whilst also encouraging them to continue browsing the website.
 
 First Time Visitor Goals:
 - Visiting the site for the first time, I want to discover more about the musician and find reviews of their concerts to see if I should consider making a booking.
@@ -51,12 +51,12 @@ First Time Visitor Goals:
 Returning Visitor Goals:
 - As a Returning Visitor, I want to easily navigate to the Contact page to enquire about the musician's availability.
 - As a Returning Visitor, I want to find up to date testimonials and reviews of the performer's work.
-- As a Returning Visitor, I want to find links to ensembles and projects that the musician is a part of to see their range.
+- As a Returning Visitor, I want to find links to ensembles and projects that the musician is a part of, to see their range.
 
 Potential Collaborator Goals:
 - As a Potential Collaborator, I want to be able to contact the musician quickly with any questions I have.
-- As a Potential Collaborator I want to be able to find clear examples of the types of projects the musician participates in to know if they would be a suitable collaborator.
-- As a Potential Collaborator, I want to find links to the musician's social media channels to check they are actively performing.
+- As a Potential Collaborator I want to be able to find clear examples of the types of projects the musician participates in, to know if they would be a suitable collaborator.
+- As a Potential Collaborator, I want to find links to the musician's social media channels, to check that they are actively performing.
 
 ## DESIGN ##
 
@@ -70,15 +70,15 @@ The three main colours I am proposing are:
 
 **FONTS**
 
-Selected fonts are used with thanks to [Google Fonts](https://fonts.google.com/).  They are easy for the user to read and are complimentary to one another.
+Selected fonts are used with thanks to [Google Fonts](https://fonts.google.com/).  They are easy for the user to read and are complementary to one another.
 - Raleway - Used in the header and footer.
 - Poppins - Used for text within the body of the website.
 
 **IMAGERY**
 
 All Hero images used will mainly be action shots of the musician performing/teaching.  
-- The **Home page** will feature a dynamic image of the performing as a soloist.
-- The images used on the **Ensembles and Projects** page be promotional images showcasing a specific group or project.
+- The **Home page** will feature a dynamic image of the musician performing as a soloist.
+- The images used on the **Ensembles and Projects** page will be promotional images showcasing a specific group or project.
 - The image on the **Contact page** will feature the musician smiling and looking to camera, to convey that he is approachable.
 
 
@@ -122,7 +122,7 @@ As part of the footer there will be a **call to action** button directing users 
 
 **ENSEMBLES AND PROJECTS**
 
-A major part of this musicians work is through solo projects and playing with ensembles - many of these are prestigious in themselves and users may be looking to find out more information about these projects, therefore it is necessary to highlight them in their own page.  
+A major part of this musician's work is through solo projects and playing with ensembles - many of these are prestigious in themselves and users may be looking to find out more information about these projects, therefore it is necessary to highlight them in their own page.  
 
 This page will feature a **carousel** of images with captions showcasing each ensemble or project the musician is involved in.
 
@@ -152,7 +152,7 @@ The page concludes with a **submit button**.
 
 **Header Logo** - Appears on every page making the brand easily identifiable. The logo will react as users have come to expect - clicking on it will return them to the Home screen.
 
-**Header Navigation Bar** - Appears on every page and creates quick and easy navigation to all areas of the website.  The page that the user is currently visiting is easily identifiable by being underlined.  When the user moves to select a different page the mouse position will be hightlighted by inverting the background and text colors.
+**Header Navigation Bar** - Appears on every page and creates quick and easy navigation to all areas of the website.  The page that the user is currently visiting is easily identifiable by being underlined.  When the user moves to select a different page the mouse position will be highlighted by inverting the background and text colors.
 
 **Footer Copyright Information** - Appears on every page to protect the business copyright.
 
@@ -164,7 +164,7 @@ The page concludes with a **submit button**.
 
 **Home Page** - Gives potential collaborators an initial 'hit' of knowledge about the musician without overloading them with information.  
 
-**Download link** - Users are provided the opportunity to learn more about the musician via a download link linking to a pdf of the musicians full biography.
+**Download link** - Users are provided the opportunity to learn more about the musician via a download link linking to a pdf of the musician's full biography.
 
 **Ensembles and Projects page** -  Users are able to learn more about the groups and projects that the musician is a part of to discover whether the musician would make a suitable partner for a collaboration.
 
@@ -192,11 +192,11 @@ The creation of this website would not have been possible without:
 - [Balsamiq](https://balsamiq.com/) - used for creation of Wireframes.
 - [Bootstrap4](https://getbootstrap.com/docs/4.0/getting-started/introduction/) -  used for their navbar, grid system and carousel.
 - [Google Fonts](https://fonts.google.com/) -  used for fonts styles, namely Poppins and Raleway.
-- [Font Awesome](https://fontawesome.com/) - used for icons, namely the download icon on the Home page.
+- [Font Awesome](https://fontawesome.com/) - used for the icon download icon on the Home page.
 - [Hover.css](https://ianlunn.github.io/Hover/) - used for hover effect on download and contact links.
 - [cdnjs.com](https://cdnjs.com/) - used to deliver hover functionality on links.
 - [Multi Device Website Mockup Generator](http://techsini.com/multi-mockup/index.php) - used for website mockup at top of README. 
-- [Color Tool](https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=560027&secondary.color=E0E0E0) - used to select complimentary colors for the website design.
+- [Color Tool](https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=560027&secondary.color=E0E0E0) - used to select complementary colors for the website design.
 - [Tinypng](https://tinypng.com/) - used to reduce the file size of all images.
 - [Online-Convert.com](https://image.online-convert.com/convert-to-jpg) - used for converting jpeg to jpg files.
 - [AutoPrefixer.github.io](http://autoprefixer.github.io/) - used for CSS prefixing.
@@ -229,8 +229,8 @@ First Time Visitor Goals:
 - Visiting the site for the first time, I want to discover more about the musician and find information on the artist and reviews of their concerts to see if I should consider making a booking.
     * The Home page has a clean, simplistic layout.  
     * The Hero image clearly shows the instrument the musician plays with the falling letters creating intrigue and interest.  
-    * The About text on the Home page is short and concise detailing the accolades the musician has achieved without overloading the user with unnecessary information - a PDF of the musicians full biography is available to download via a clearly visible button.
-    * The reviews, taken from recent performances, are short and display the musicians musicality.  They clearly show the musicians artistry and are taken from reputable sources. 
+    * The About text on the Home page is short and concise detailing the accolades the musician has achieved without overloading the user with unnecessary information - a PDF of the musician's full biography is available to download via a clearly visible button.
+    * The reviews, taken from recent performances, are short and display the musician's musicality.  They clearly show the musician's artistry and are taken from reputable sources. 
 
 - Visiting the site for the first time, I want to be able to navigate the site quickly and effectively to find what I need.
     * On every page the navigation bar is easy to find and use.  The page the user is visiting is underlined and an active hover function on the navigation bar shows where the user is potentially navigating to.
@@ -243,9 +243,9 @@ First Time Visitor Goals:
     * The Ensembles and Projects page showcases the highly sought after groups the musician is a member of and the unique projects the musician has helped develop.
 
 Returning Visitor Goals:
-- As a Returning Visitor, I want to easily navigate to the Contact page to enquire about the musicians availability.
+- As a Returning Visitor, I want to easily navigate to the Contact page to enquire about the musician's availability.
     * All pages can navigte to the Contact page quickly and easily either via the navbar or via the contact link further down the page.
-- As a Returning Visitor, I want to find up to date testimonials and reviews of the performers work.
+- As a Returning Visitor, I want to find up to date testimonials and reviews of the performer's work.
     * The Home page has recent reviews of performances from reputable sources.  Over time these reviews will change to reflect more recent performance reviews.
 - As a Returning Visitor, I want to find links to ensembles and projects that the musician is a part of to see their range.
     * The Ensembles and Projects page has clear promotional imagery of each group or project.  Each page links externally to that group/projects webpage - these open in a separate tab.
@@ -254,9 +254,9 @@ Potential Collaborator Goals:
 - As a Potential Collaborator, I want to be able to contact the musician quickly with any questions I have.
     * No matter which page the user arrives to the site the are able to make quick contact with the musician via Contact page either via the navbar at the top of the page or via the contact link further down the page.
 - As a Potential Collaborator I want to be able to find clear examples of the types of projects the musician participates in to know if they would be a suitable collaborator.
-    * The Home page details the musicians capabilities as a soloist while the Ensembles and Projects page shows the different ensemble sizes that the musician is used to performing with (5 musicians and 10 musicians) as well as non-standard instrumentation (performances including choreography, acting and electronics).  Over time this page will be updated to include additional ensembles and projects to further showcase the musicians artistry.
-- As a Potential Collaborator, I want to find links to the musicians social media channels to check they are actively performing.
-    * The footer of every page includes links to the musicians active social media channels.  Each link opens in a separate tab so the user does not need to navigate away from the website. 
+    * The Home page details the musician's capabilities as a soloist while the Ensembles and Projects page shows the different ensemble sizes that the musician is used to performing with (5 musicians and 10 musicians) as well as non-standard instrumentation (performances including choreography, acting and electronics).  Over time this page will be updated to include additional ensembles and projects to further showcase the musician's artistry.
+- As a Potential Collaborator, I want to find links to the musician's social media channels to check they are actively performing.
+    * The footer of every page includes links to the musician's active social media channels.  Each link opens in a separate tab so the user does not need to navigate away from the website. 
 
 **MANUAL TESTING**
 
@@ -323,7 +323,7 @@ ENSEMBLES AND PROJECTS PAGE
 - Click the call to action button and confirm that it links to the Contact page.
 - Reduce the screen size to a mobile breakpoint to ensure the call to action button moves from the text box to the footer.
 
-- Hover over both the right and left carousel navigation buttons to ensure their opactiy changes.
+- Hover over both the right and left carousel navigation buttons to ensure their opacity changes.
 - Click both the right and left carousel navigation buttons to ensure their opacity changes.
 
 *The above steps were repeated on 'The Last Post' and 'WorldBrass' carousel pages*
@@ -374,7 +374,7 @@ Each page was tested using [Google DevTools](https://developers.google.com/web/t
     * Xiaomi Mi 10T Lite 
 
 - Reported bugs/glitches included:
-    * Mobile phones - a lag on the scroll on the Home page.  Noone reported this greatly impacted the use of the website and some reported they were only aware of it after it had been brought to their attention.  No action has been taken to rectify this as no user reported that this negatively affected their usage/enjoyment of the website.  It is something that will be fixed in future website updates.
+    * Mobile phones - a lag on the scroll on the Home page.  No one reported this greatly impacted the use of the website and some reported they were only aware of it after it had been brought to their attention.  No action has been taken to rectify this as no user reported that this negatively affected their usage/enjoyment of the website.  It is something that will be fixed in future website updates.
     * Ensembles and Projects page - some users reported the text was difficult to read on on the Stockholm Chamber Brass page. To rectify this the opacity of the text container was increased from 0.75 to 0.8.
     * Body text - some users reported they found some text did not stand out against the background images.  All body text was changed to black (#000) to provide more clarity.
 
@@ -399,7 +399,7 @@ Solution: re-reading Code Institute lesson on forms and updating code to include
 
 ## DEPLOYMENT ##
 
-This project was developed using [Gitpod](https://www.gitpod.io/), committed to git and pushed to GitHub using the built in functionality.
+This project was developed using [Gitpod](https://www.gitpod.io/), committed to Git and pushed to GitHub using the built in functionality.
 
 **Publishing**
 
@@ -420,7 +420,7 @@ This website was published using GitHub Pages. The procedure is outlined below.
 - **Neil Hanna Photography** for use of his press photograph of 'The Last Post' used on the Home page.
 - **Ed Poulson** for his help with editing images on photoshop.
 - **Miki Anagrius** for use of his photograph of Stockholm Chamber Brass used on the Ensembles and Projects page.
-- **Anna Parker @ Fogbank Projects**  for use of her poster designed for promotion of project The Last Post used on the Ensembles and Projects page.
+- **Anna Parker @ Fogbank Projects**  for use of her poster designed for promotion of project *The Last Post* used on the Ensembles and Projects page.
 - **Peter Himsels** for use of his photograph of WorldBrass used on the Ensembles and Projects page.
 - **Kenneth Dundas** for use of his photograph of the musician smiling during rehearsal used on the Contact page.
 - **Sebsemillia** for .carousel-caption code on StackOverflow to align captions to center of page *credited on style.css*
