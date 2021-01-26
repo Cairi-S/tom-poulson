@@ -65,6 +65,7 @@ Potential Collaborator Goals:
 The three main colours I am proposing are:
 - Off white (HEX #f5f5f5) - reflects the refined style expected from a classical musician.
 - Dark gray (HEX #333)  - reflects the refined style expected from a classical musician.
+- Black (#000) - used to provide a clear contrast between text in the main body and background images.
 - Maroon (HEX #4C1130) - adds a splash of color and ties in with a color on the home page Hero image.
 
 **FONTS**
@@ -375,6 +376,7 @@ Each page was tested using [Google DevTools](https://developers.google.com/web/t
 - Reported bugs/glitches included:
     * Mobile phones - a lag on the scroll on the home page.  Noone reported this greatly impacted the use of the website and some reported they were only aware of it after it had been brought to their attention.  No action has been taken to rectify this as no user reported that this negatively affected their usage/enjoyment of the website.  It is something that will be fixed in future website updates.
     * Ensembles and Carousels page - some users reported the text was difficult to read on on the Stockholm Chamber Brass page. To rectify this the opacity of the text container was increased from 0.75 to 0.8.
+    * Body text - some users reported they found some text did not stand out against the background images.  All body text was changed to black (#000) to provide more clarity.
 
 ADDITIONAL TESTING
 
