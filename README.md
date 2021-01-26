@@ -65,14 +65,14 @@ Potential Collaborator Goals:
 The three main colours I am proposing are:
 - Off white (HEX #f5f5f5) - reflects the refined style expected from a classical musician.
 - Dark gray (HEX #333)  - reflects the refined style expected from a classical musician.
-- Black (#000) - used to provide a clear contrast between text in the main body and background images.
-- Maroon (HEX #4C1130) - adds a splash of color and ties in with a color on the home page Hero image.
+- Black (HEX #000) - used to provide a clear contrast between text in the main body and background images.
+- Maroon (HEX #4C1130) - adds a splash of color and ties in with a color on the Home page Hero image.
 
 **FONTS**
 
 Selected fonts are used with thanks to [Google Fonts](https://fonts.google.com/).  They are easy for the user to read and are complimentary to one another.
-- Poppins - Used in the header and footer plus and headings within the main body.
-- Raleway - Used for text within the body.
+- Raleway - Used in the header and footer.
+- Poppins - Used for text within the body of the website.
 
 **IMAGERY**
 
@@ -106,7 +106,7 @@ The **footer** for each page will include copyright information and will link to
 
 When you **hover over an item in the navbar** the text will be outlined by a box - the text and background color will invert so the text is off-white and the box is maroon.
 
-The **home and contact pages** will feature different Hero images aimed to showcase the area of that pages focus - these pictures will be action photos with the hope of giving energy to the webpage and giving a positive emotional response towards the site and the musician.
+The **Home and Contact pages** will feature different Hero images aimed to showcase the area of that pages focus - these pictures will be action photos with the hope of giving energy to the webpage and giving a positive emotional response towards the site and the musician.
 
 
 **HOME**
@@ -117,7 +117,7 @@ The **download link** will feature a download icon and **open to a PDF in a new 
 
 On **iPad and mobile devices** only the two more prestigious reviews will be featured to reduce scroll time and stop the potential for information overload.
 
-As part of the footer there will be a **call to action** button directing users to the **contact page** should the user have already decided that they want to make contact with the musician.
+As part of the footer there will be a **call to action** button directing users to the **Contact page** should the user have already decided that they want to make contact with the musician.
 
 
 **ENSEMBLES AND PROJECTS**
@@ -132,7 +132,7 @@ Each **title** will be a **link to an external website** which will **open in a 
 
 Photographs or images used will be promotional shots used by each group or project for cohesiveness should the user separately search for that ensemble or project.
 
-There will also be a **call to action button** asking the user if they want to collaborate and directing users to the **contact page**.
+There will also be a **call to action button** asking the user if they want to collaborate and directing users to the **Contact page**.
 
 **CONTACT** 
 
@@ -192,7 +192,7 @@ The creation of this website would not have been possible without:
 - [Balsamiq](https://balsamiq.com/) - used for creation of Wireframes.
 - [Bootstrap4](https://getbootstrap.com/docs/4.0/getting-started/introduction/) -  used for their navbar, grid system and carousel.
 - [Google Fonts](https://fonts.google.com/) -  used for fonts styles, namely Poppins and Raleway.
-- [Font Awesome](https://fontawesome.com/) - used for icons, namely the Download icon on the home page.
+- [Font Awesome](https://fontawesome.com/) - used for icons, namely the download icon on the Home page.
 - [Hover.css](https://ianlunn.github.io/Hover/) - used for hover effect on download and contact links.
 - [cdnjs.com](https://cdnjs.com/) - used to deliver hover functionality on links.
 - [Multi Device Website Mockup Generator](http://techsini.com/multi-mockup/index.php) - used for website mockup at top of README. 
@@ -217,9 +217,9 @@ The most common path users take through the website is:
 
 Home > Ensembles and Projects > Contact
 
-Each of these pages has a natural progression to the next. Should the user get to the bottom of the page and decide they wish to make contact with the musician each page features an easily identifiable button which links directly to the contact page so they do not have to scroll back to the top.
+Each of these pages has a natural progression to the next. Should the user get to the bottom of the page and decide they wish to make contact with the musician each page features an easily identifiable button which links directly to the Contact page so they do not have to scroll back to the top.
 
-To reduce information overload on the Home page, the information about the musician has been reduced to an exciting headline.  The user is able to learn more by downloading a full Biography using the easy to idetify Download link which opens in a separate tab.
+To reduce information overload on the Home page, the information about the musician has been reduced to an exciting headline.  The user is able to learn more by downloading a full Biography using the easy to idetify download link which opens in a separate tab.
 
 The Ensembles and Projects page features links to the external websites of each group or project which open in a separate tab.  The text chosen for each group is designed to display the standard and flexibility of range that the musician has without detracting from them as a soloist.  The text and external links aim to entice the user to read more.  
 
@@ -234,17 +234,17 @@ First Time Visitor Goals:
 
 - Visiting the site for the first time, I want to be able to navigate the site quickly and effectively to find what I need.
     * On every page the navigation bar is easy to find and use.  The page the user is visiting is underlined and an active hover function on the navigation bar shows where the user is potentially navigating to.
-    * On every page the Logo, situated in the top left of the header, navigates back to the home page which is customary on most websites. The home page is the starting point for most user stories.
+    * On every page the Logo, situated in the top left of the header, navigates back to the Home page which is customary on most websites. The Home page is the starting point for most user stories.
     * Each page features a Call to Action button inviting users to contact the musician, clicking this button leads them directly to the Contact page. 
 
 - Visiting the site for the first time, I am looking for clearly documented experience to know if I should consider making a booking.
     * The About text on the Home page quickly demonstrates accolades the musician has achieved.
-    * The Reviews featured on the home page reference the musician's artistry and musicality directly.
+    * The Reviews featured on the Home page reference the musician's artistry and musicality directly.
     * The Ensembles and Projects page showcases the highly sought after groups the musician is a member of and the unique projects the musician has helped develop.
 
 Returning Visitor Goals:
 - As a Returning Visitor, I want to easily navigate to the Contact page to enquire about the musicians availability.
-    * All pages can navigte to the contact page quickly and easily either via the navbar or via the Contact link further down the page.
+    * All pages can navigte to the Contact page quickly and easily either via the navbar or via the contact link further down the page.
 - As a Returning Visitor, I want to find up to date testimonials and reviews of the performers work.
     * The Home page has recent reviews of performances from reputable sources.  Over time these reviews will change to reflect more recent performance reviews.
 - As a Returning Visitor, I want to find links to ensembles and projects that the musician is a part of to see their range.
@@ -252,7 +252,7 @@ Returning Visitor Goals:
 
 Potential Collaborator Goals:
 - As a Potential Collaborator, I want to be able to contact the musician quickly with any questions I have.
-    * No matter which page the user arrives to the site the are able to make quick contact with the musician via contact page either via the navbar at the top of the page or via the Contact link further down the page.
+    * No matter which page the user arrives to the site the are able to make quick contact with the musician via Contact page either via the navbar at the top of the page or via the contact link further down the page.
 - As a Potential Collaborator I want to be able to find clear examples of the types of projects the musician participates in to know if they would be a suitable collaborator.
     * The Home page details the musicians capabilities as a soloist while the Ensembles and Projects page shows the different ensemble sizes that the musician is used to performing with (5 musicians and 10 musicians) as well as non-standard instrumentation (performances including choreography, acting and electronics).  Over time this page will be updated to include additional ensembles and projects to further showcase the musicians artistry.
 - As a Potential Collaborator, I want to find links to the musicians social media channels to check they are actively performing.
@@ -273,7 +273,7 @@ HOME PAGE
 - Change the screen size to mobile device to verify that the navigation bar is responsive and switches from inline menu to burger icon dropdown menu at the appropriate breakpoint.
 - Hover over each menu item in the navigation bar to check that the text and background color invert.
 - Check that the appropriate menu item is underlined to show the active page (in this instance 'Home').
-- Click on the logo in the navigation bar and verify that it links to the home page.
+- Click on the logo in the navigation bar and verify that it links to the Home page.
 
 *Hero image*
 
@@ -297,7 +297,7 @@ HOME PAGE
 *Call to action button*
 
 - Hover over the call to action button to ensure that the text changes from sentence case to uppercase and becomes underlined.
-- Click the call to action button and confirm that it links to the contact page.
+- Click the call to action button and confirm that it links to the Contact page.
 
 *Footer*
 
@@ -309,7 +309,7 @@ ENSEMBLES AND PROJECTS PAGE
 
 *Logo and Navigation bar*
 
-- Repeat the steps listed for the home page.
+- Repeat the steps listed for the Home page.
 - Check the HTML code is the same between ensembles.html and index.html
 
 *Stockholm Chamber Brass page*
@@ -320,7 +320,7 @@ ENSEMBLES AND PROJECTS PAGE
 - Click 'here' to check that this links to the Stockholm Chamber Brass Academy external website in a separate tab.
 
 - Hover over the call to action button to ensure that the text changes from sentence case to uppercase and becomes underlined.
-- Click the call to action button and confirm that it links to the contact page.
+- Click the call to action button and confirm that it links to the Contact page.
 - Reduce the screen size to a mobile breakpoint to ensure the call to action button moves from the text box to the footer.
 
 - Hover over both the right and left carousel navigation buttons to ensure their opactiy changes.
@@ -330,7 +330,7 @@ ENSEMBLES AND PROJECTS PAGE
 
 *Footer*
 
-- Repeat the steps listed for the home page.
+- Repeat the steps listed for the Home page.
 - Check the HTML code matches index.html.
 
 CONTACT PAGE
@@ -374,8 +374,8 @@ Each page was tested using [Google DevTools](https://developers.google.com/web/t
     * Xiaomi Mi 10T Lite 
 
 - Reported bugs/glitches included:
-    * Mobile phones - a lag on the scroll on the home page.  Noone reported this greatly impacted the use of the website and some reported they were only aware of it after it had been brought to their attention.  No action has been taken to rectify this as no user reported that this negatively affected their usage/enjoyment of the website.  It is something that will be fixed in future website updates.
-    * Ensembles and Carousels page - some users reported the text was difficult to read on on the Stockholm Chamber Brass page. To rectify this the opacity of the text container was increased from 0.75 to 0.8.
+    * Mobile phones - a lag on the scroll on the Home page.  Noone reported this greatly impacted the use of the website and some reported they were only aware of it after it had been brought to their attention.  No action has been taken to rectify this as no user reported that this negatively affected their usage/enjoyment of the website.  It is something that will be fixed in future website updates.
+    * Ensembles and Projects page - some users reported the text was difficult to read on on the Stockholm Chamber Brass page. To rectify this the opacity of the text container was increased from 0.75 to 0.8.
     * Body text - some users reported they found some text did not stand out against the background images.  All body text was changed to black (#000) to provide more clarity.
 
 ADDITIONAL TESTING
